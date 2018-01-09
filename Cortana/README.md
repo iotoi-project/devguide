@@ -26,12 +26,21 @@
 
 ### 소프트웨어 설치
 
-1. Visual Studio 2017 설치
-2. Windows Assessment and Deployment Kit \(ADK\) 설치
-3. Windows SDK 설치
-4. Windows Driver Kit \(WDK\) 설치
-5. Windows 10 IoT Core Packages 설치
-6. Windows 10 IoT Core Dashboard 설치
+#### \# Visual Studio 2017 설치
+
+![](/assets/Visual_Studio_Install_Options_1.png)
+
+![](/assets/Visual_Studio_Install_Options_2.png)
+
+#### \# Windows Assessment and Deployment Kit \(ADK\) 설치
+
+#### \# Windows SDK 설치
+
+#### \# Windows Driver Kit \(WDK\) 설치
+
+#### \# Windows 10 IoT Core Packages 설치
+
+#### \# Windows 10 IoT Core Dashboard 설치
 
 
 
