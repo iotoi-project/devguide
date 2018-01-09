@@ -34,13 +34,23 @@
 
 #### \# Windows Assessment and Deployment Kit \(ADK\) 설치
 
+* Install default options
+
 #### \# Windows SDK 설치
+
+* Install default options
 
 #### \# Windows Driver Kit \(WDK\) 설치
 
+* Install default options
+
 #### \# Windows 10 IoT Core Packages 설치
 
+* Install default options
+
 #### \# Windows 10 IoT Core Dashboard 설치
+
+* Install default options
 
 
 
