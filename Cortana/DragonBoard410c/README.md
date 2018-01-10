@@ -15,9 +15,9 @@
 
 * ## DragonBoard 410c
 
-    - [Microsoft Windows 10 IoT Core Official release for DragonBoard 410c 버전 이미지 다운로드](../Cortana/DragonBoard410c/how-to-download-of-MS-official-release-binary.md)
+    - [Microsoft Windows 10 IoT Core Official release for DragonBoard 410c 버전 이미지 다운로드](../DragonBoard410c/how-to-download-of-MS-official-release-binary.md)
 
-    - [BSP\(Board Support Package\) Build 방법](../Cortana/DragonBoard410c/how-to-download-binary.md)
+    - [BSP\(Board Support Package\) Build 방법](../DragonBoard410c/how-to-download-binary.md)
 
 
 
