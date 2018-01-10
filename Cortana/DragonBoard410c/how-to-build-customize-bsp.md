@@ -26,9 +26,10 @@
   * ### 다운받은 Qualcomm BSP 파일을 압축해제 합니다.
   * ### 윈도우 탐색기에서 검색하기를 이용하여, BSP에 포함된 모든 cab 파일을 찾습니다.
   * ### 검색된 모든 cab 파일을 "QualcommBSPCabs"에 복사합니다.
-
 * ## iot-adk-addonkit을 이용하여 이미지 빌드하기
+
   * ### Tool\setOEM.cmd 파일을 수정합니다.
+
     ![](/assets/dragonBoard_bsp_build_step_2.png)![](/assets/dragonBoard_bsp_build_step_3.png)
 
   * ### IoTCoreShell.cmd를 administrator로 실행합니다.
@@ -65,6 +66,14 @@
 
     ![](/assets/dragonBoard_bsp_build_step_8.png)
 
+  * ### Cortana feature를 추가합니다.
+    
+    - #### 아래 경로의 "TestOEMInput.xml" 파일을 notepad를 이용하여 Open합니다.
+    ![](/assets/dragonBoard_bsp_build_cortana_step_1.png)
+    
+    - #### IOT_CORTANA를 추가하고, 저장합니다.
+    ![](/assets/dragonBoard_bsp_build_cortana_step_2.png)
+
   * ### 이미지를 빌드합니다. \(이미지 빌드 시간은 약 30분 정도 소요됩니다.\)
 
     ```
@@ -73,13 +82,19 @@
 
     ![](/assets/dragonBoard_bsp_build_step_9.png)
 
-  * ### 이미지 빌드가 완료 
+  * ### 이미지 빌드가 완료
+
     #### 윈도우 탐색기를 이용하여 아래 경로로 이동하면 생성된 Windows 10 IoT Core 이미지가 있습니다.
 
     ![](/assets/dragonBoard_bsp_build_step_10.png)
 
   * ### 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.
-      - #### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
+
+    * #### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
 
 ## Reference
-  * ### [Microsoft IoT Core manufacturing guide](https://docs.microsoft.com/ko-kr/windows-hardware/manufacture/iot/create-a-basic-image?f=255&MSPPError=-2147217396.)
+
+* ### [Microsoft IoT Core manufacturing guide](https://docs.microsoft.com/ko-kr/windows-hardware/manufacture/iot/create-a-basic-image?f=255&MSPPError=-2147217396.)
+
+* ### [Microsoft IoT Core feature list](https://inslab.jira.com/wiki/spaces/CWD/pages/190873601/IoT+Core+feature+list)
+
