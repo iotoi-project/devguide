@@ -23,7 +23,7 @@
 
 * ## Reference
 
-    - [Windows 10 IoT Core feature list](https://docs.microsoft.com/en-us/windows-        hardware/manufacture/iot/iot-core-feature-list)
+    - [Windows 10 IoT Core feature list](https://docs.microsoft.com/en-us/windows-       hardware/manufacture/iot/iot-core-feature-list)
 
     - [Windows 10 IoT Core Command Line Utils](https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/commandlineutils)
 
