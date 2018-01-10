@@ -36,9 +36,9 @@
 
     ![](/assets/dragonBoard_bsp_build_step_4.png)
 
-    #### Architecture에서 "1 for ARM"을 선택합니다.
+    - #### Architecture에서 "1 for ARM"을 선택합니다.
 
-    #### 만약 빨간색 부분의 정보가 일치하지 않거나 정상적인 버전이 나타나지 않으면 설치환경을 확인하세요.
+    - #### 만약 빨간색 부분의 정보가 일치하지 않거나 정상적인 버전이 나타나지 않으면 설치환경을 확인하세요.
 
     ![](/assets/dragonBoard_bsp_build_step_5.png)
 
@@ -69,10 +69,10 @@
   * ### Cortana feature를 추가합니다.
     
     - #### 아래 경로의 "TestOEMInput.xml" 파일을 notepad를 이용하여 Open합니다.
-    ![](/assets/dragonBoard_bsp_build_cortana_step_1.png)
+      ![](/assets/dragonBoard_bsp_build_cortana_step_1.png)
     
     - #### IOT_CORTANA를 추가하고, 저장합니다.
-    ![](/assets/dragonBoard_bsp_build_cortana_step_2.png)
+      ![](/assets/dragonBoard_bsp_build_cortana_step_2.png)
 
   * ### 이미지를 빌드합니다. \(이미지 빌드 시간은 약 30분 정도 소요됩니다.\)
 
