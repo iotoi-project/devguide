@@ -19,8 +19,13 @@
 
     - [BSP\(Board Support Package\) Build 방법](../DragonBoard410c/how-to-download-binary.md)
 
+* ## Raspberry Pi
 
+    - Microsoft Windows 10 IoT Core Official release for Raspberry Pi 버전 이미지 다운로드
 
+    - BSP\(Board Support Package\) Build 방법
+    
+    
 * ## Reference
 
     - [Windows 10 IoT Core feature list](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iot-core-feature-list)
@@ -29,9 +34,5 @@
 
 
 
-* ## Raspberry Pi
 
-    - Microsoft Windows 10 IoT Core Official release for Raspberry Pi 버전 이미지 다운로드
-
-    - BSP\(Board Support Package\) Build 방법
 
