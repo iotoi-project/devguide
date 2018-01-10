@@ -80,3 +80,6 @@
 
   * ### 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.
       - #### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
+
+## Reference
+  * ### [Microsoft IoT Core manufacturing guide](https://docs.microsoft.com/ko-kr/windows-hardware/manufacture/iot/create-a-basic-image?f=255&MSPPError=-2147217396.)
