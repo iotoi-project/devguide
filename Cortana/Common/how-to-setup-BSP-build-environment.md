@@ -4,15 +4,14 @@
 
 지원보드
 
-* Dragon Board 410c
-* Raspberry Pi 2/3
+- Dragon Board 410c
+- Raspberry Pi 2/3
 
 **이 문서는 Windows 10 Version 1709 OS Build 16299.192 기준으로 작성되었습니다.**
 
 **아래 소프트웨어를 다운 받을 때, 버전 1709로 다운로드하여 설치해야 합니다.**
 
-
-        ![](/assets/Windows_specifications.png)
+![](/assets/Windows_specifications.png)
 
 
 ```
@@ -22,42 +21,42 @@ Windows 10 IoT Core BSP 빌드에 필요한 소프트웨어는 윈도우 업데�
 이는 알 수 없는 빌드 실패 문제를 초래할 수 있습니다. 따라서, 빌드 전용 환경을 별도로 구축하는 것을 권장합니다.
 ```
 
-### 소프트웨어 다운로드
+## 소프트웨어 다운로드
 
-* [Visual Studio Community 2017](https://www.visualstudio.com/downloads/?utm_source=mscom&utm_campaign=msdocs)
-* [Windows Assessment and Deployment Kit \(ADK\)](https://developer.microsoft.com/en-us/windows/hardware/windows-assessment-deployment-kit)
-* [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)
-* [Windows Driver Kit \(WDK\)](https://developer.microsoft.com/en-us/windows/hardware/windows-driver-kit)
-* [Windows 10 IoT Core Packages – Build 16299](https://www.microsoft.com/en-us/software-download/windows10iotcore)
-* [Windows 10 IoT Core Dashboard](https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/IoTDashboard)
+- #### [Visual Studio Community 2017](https://www.visualstudio.com/downloads/?utm_source=mscom&utm_campaign=msdocs)
+- #### [Windows Assessment and Deployment Kit \(ADK\)](https://developer.microsoft.com/en-us/windows/hardware/windows-assessment-deployment-kit)
+- #### [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)
+* #### [Windows Driver Kit \(WDK\)](https://developer.microsoft.com/en-us/windows/hardware/windows-driver-kit)
+- #### [Windows 10 IoT Core Packages – Build 16299](https://www.microsoft.com/en-us/software-download/windows10iotcore)
+- #### [Windows 10 IoT Core Dashboard](https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/IoTDashboard)
 
-### 소프트웨어 설치
+## 소프트웨어 설치
 
-#### \# Visual Studio 2017 설치
+- ### Visual Studio 2017 설치
 
 ![](/assets/Visual_Studio_Install_Options_1.png)
 
 ![](/assets/Visual_Studio_Install_Options_2.png)
 
-#### \# Windows Assessment and Deployment Kit \(ADK\) 설치
+- ### Windows Assessment and Deployment Kit \(ADK\) 설치
 
-* Install default options
+    - #### Install default options
 
-#### \# Windows SDK 설치
+- ### Windows SDK 설치
 
-* Install default options
+    - #### Install default options
 
-#### \# Windows Driver Kit \(WDK\) 설치
+- ### Windows Driver Kit \(WDK\) 설치
 
-* Install default options
+    - #### Install default options
 
-#### \# Windows 10 IoT Core Packages 설치
+- ### Windows 10 IoT Core Packages 설치
 
-* Install default options
+    - #### Install default options
 
-#### \# Windows 10 IoT Core Dashboard 설치
+- ### Windows 10 IoT Core Dashboard 설치
 
-* Install default options
+    - #### Install default options
 
 
 
