@@ -1,4 +1,4 @@
-# Cortana for Windows 10 IoT Core
+# Windows 10 IoT Core BSP 빌드 환경 설정
 
 이 페이지는 Microsoft에서 개발한 Cortana 음성인식을 INS\_VOICE\(가칭\)를 이용하여 사용하는 방법을 기술합니다.
 
@@ -7,13 +7,13 @@
 * Dragon Board 410c
 * Raspberry Pi 2/3
 
-## Windows 10 IoT Core BSP 환경 설정
-
 **이 문서는 Windows 10 Version 1709 OS Build 16299.192 기준으로 작성되었습니다.**
 
 **아래 소프트웨어를 다운 받을 때, 버전 1709로 다운로드하여 설치해야 합니다.**
 
-![](/assets/Windows_specifications.png)
+
+        ![](/assets/Windows_specifications.png)
+
 
 ```
 Tip!
