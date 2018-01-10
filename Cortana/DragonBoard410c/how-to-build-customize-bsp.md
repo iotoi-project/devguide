@@ -79,4 +79,4 @@
     ![](/assets/dragonBoard_bsp_build_step_10.png)
 
   * ### 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.
-
+      - #### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
