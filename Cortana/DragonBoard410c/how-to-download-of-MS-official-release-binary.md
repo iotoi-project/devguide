@@ -1,6 +1,8 @@
 # Cortana for Dragon Board 410c
 
-이 페이지는 Microsoft에서 개발한 Cortana 음성인식을 INS\_VOICE\(가칭\)를 이용하여 사용하는 방법을 기술합니다.
+이 페이지는 Microsoft에서 공식 릴리즈하는 Windows 10 IoT Core 이미지의 다운로드 방법을 설명합니다.
+
+
 
 ## Microsoft 공식 릴리즈 버전 다운로드
 
