@@ -1,5 +1,8 @@
 # How to download bsp to DragonBoard 410c
 
+이 페이지는 Dragon Board 410c에 이미지 다운로드 방법을 설명합니다.
+
+
 - ## Update Tool for DragonBoard 다운로드
 
     - ### [Windows 10 IoT Update Tool for DragonBoard 410c x86](https://developer.qualcomm.com/download/db410c/windows-10-iot-update-tool-dragonboard-410c-x86.zip)
