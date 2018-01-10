@@ -21,6 +21,10 @@
 
         ![](/assets/dragonBoard_release_step_3.png)
 
+    - #### 이미지 위치 \(flash.ffu\)
+    
+        ![](/assets/dragonBoard_release_step_8.png)
+
 
 
 
