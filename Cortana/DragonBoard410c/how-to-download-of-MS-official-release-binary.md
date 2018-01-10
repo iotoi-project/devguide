@@ -6,12 +6,10 @@
 
 ## Microsoft 공식 릴리즈 버전 다운로드
 
-[Windows 10 IoT Core for DragonBoard](https://www.microsoft.com/en-us/download/details.aspx?id=55027)
-
-
 - ## Windows 10 IoT Core for DragonBoard
 
     - #### Download Dragon Board 410c release binary
+        - ##### [Windows 10 IoT Core for DragonBoard](https://www.microsoft.com/en-us/download/details.aspx?id=55027)
 
     - #### 프로그램 실행
 
