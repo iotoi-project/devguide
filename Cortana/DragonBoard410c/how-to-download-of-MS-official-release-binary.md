@@ -6,11 +6,6 @@
 
 [Windows 10 IoT Core for DragonBoard](https://www.microsoft.com/en-us/download/details.aspx?id=55027)
 
-[Windows 10 IoT Update Tool for DragonBoard 410c x86](https://developer.qualcomm.com/download/db410c/windows-10-iot-update-tool-dragonboard-410c-x86.zip)
-
-[Windows 10 IoT Update Tool for DragonBoard 410c x64](https://developer.qualcomm.com/download/db410c/windows-10-iot-update-tool-dragonboard-410c-x64.zip)
-
-# 
 
 ### \# Windows 10 IoT Core for DragonBoard
 
