@@ -28,10 +28,10 @@
   * ### 검색된 모든 cab 파일을 "QualcommBSPCabs"에 복사합니다.
 
 * ## iot-adk-addonkit을 이용하여 이미지 빌드하기
-  * #### Tool\setOEM.cmd 파일을 수정합니다.
+  * ### Tool\setOEM.cmd 파일을 수정합니다.
     ![](/assets/dragonBoard_bsp_build_step_2.png)![](/assets/dragonBoard_bsp_build_step_3.png)
 
-  * #### IoTCoreShell.cmd를 administrator로 실행합니다.
+  * ### IoTCoreShell.cmd를 administrator로 실행합니다.
 
     ![](/assets/dragonBoard_bsp_build_step_4.png)
 
