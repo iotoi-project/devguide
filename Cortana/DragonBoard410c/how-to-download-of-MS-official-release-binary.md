@@ -9,7 +9,7 @@
 [Windows 10 IoT Core for DragonBoard](https://www.microsoft.com/en-us/download/details.aspx?id=55027)
 
 
-- ### Windows 10 IoT Core for DragonBoard
+- ## Windows 10 IoT Core for DragonBoard
 
     - #### Download Dragon Board 410c release binary
 
