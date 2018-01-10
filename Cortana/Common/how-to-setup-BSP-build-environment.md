@@ -33,10 +33,10 @@ Windows 10 IoT Core BSP 빌드에 필요한 소프트웨어는 윈도우 업데�
 ## 소프트웨어 설치
 
 - ### Visual Studio 2017 설치
-
-![](/assets/Visual_Studio_Install_Options_1.png)
-
-![](/assets/Visual_Studio_Install_Options_2.png)
+    
+    ![](/assets/Visual_Studio_Install_Options_1.png)
+    
+    ![](/assets/Visual_Studio_Install_Options_2.png)
 
 - ### Windows Assessment and Deployment Kit \(ADK\) 설치
 
