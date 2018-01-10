@@ -10,7 +10,7 @@
 
 * ## Common
 
-    - [Windows 10 IoT Core BSP build 환경 구축](../Cortana/Common/how-to-setup-BSP-build-environment.md)
+    - [Windows 10 IoT Core BSP build 환경 구축](../Common/how-to-setup-BSP-build-environment.md)
 
 
 * ## DragonBoard 410c
