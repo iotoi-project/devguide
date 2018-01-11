@@ -7,4 +7,4 @@
 
 
 - ## Raspberry Pi에 Windows IoT Core 이미지 다운로드하는 방법
-    - ### [Set up your device - *SD card-based devices*](https://developer.microsoft.com/en-us/windows/iot/getstarted/prototype/setupdevice)
+    - ### [Set up your device - *SD card-based devices* or *NOOBS*](https://developer.microsoft.com/en-us/windows/iot/getstarted/prototype/setupdevice)
