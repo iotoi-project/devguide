@@ -1,4 +1,4 @@
-# Cortana for Dragon Board 410c
+금일까지 작업 진행 상황을 정리해서 보고 드립니다.# Cortana for Dragon Board 410c
 
 이 페이지는 Microsoft에서 공식 릴리즈하는 Windows 10 IoT Core 이미지의 다운로드 방법을 설명합니다.
 
