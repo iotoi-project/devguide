@@ -81,7 +81,7 @@
 
     ![](/assets/rpi3_bsp_build_cortana_step_2.png)
     
-  * ### 이미지를 빌드합니다. \(이미지 빌드 시간은 약 30분 정도 소요됩니다.\)
+* ### 이미지를 빌드합니다. \(이미지 빌드 시간은 약 30분 정도 소요됩니다.\)
 
     ```
     buildimage ProductA test
