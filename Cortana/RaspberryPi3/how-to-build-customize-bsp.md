@@ -20,7 +20,9 @@
     * #### [Windows 10 IoT Core Board Support Package](https://github.com/ms-iot/bsp)
 * ## Windows 10 IoT Core Prebuilt Binaries for Raspberry Pi 2/3
 
-  * ### iot-adk-addonkit와 같은 폴더에 "rpibsp.zip" 파일의 압축을 해제합니다.![](/assets/rpi3_bsp_build_step_1.png)
+  * ### iot-adk-addonkit와 같은 폴더에 "rpibsp.zip" 파일의 압축을 해제합니다.
+
+    ![](/assets/rpi3_bsp_build_step_1.png)
 
 ## iot-adk-addonkit을 이용하여 이미지 빌드하기
 
@@ -47,11 +49,11 @@
 
 * rpibsp 폴더로 이동합니다. PreBuilt BSP를 빌드 합니다.
 
-```
-build.cmd
-```
+  ```
+  build.cmd
+  ```
 
-### ![](/assets/rpi3_bsp_build_step_7.png)
+  ### ![](/assets/rpi3_bsp_build_step_7.png)
 
 * ### Raspberry Pi용 prebuilt BSP가 빌드되면 작업 풀더에 모든 패키지를 빌드합니다.
 
@@ -61,7 +63,7 @@ build.cmd
 
   ![](/assets/rpi3_bsp_build_step_8.png)
 
-* ### Raspberry Pi용 프로덕트를 생성합니다. 
+* ### Raspberry Pi용 프로덕트를 생성합니다.
 
   ```
   newproduct ProductA rpi2
@@ -78,23 +80,24 @@ build.cmd
   * #### IOT\_CORTANA를 추가하고, 저장합니다.
 
     ![](/assets/rpi3_bsp_build_cortana_step_2.png)
-* ### 이미지를 빌드합니다. \(이미지 빌드 시간은 약 30분 정도 소요됩니다.\)
+    
+  * ### 이미지를 빌드합니다. \(이미지 빌드 시간은 약 30분 정도 소요됩니다.\)
 
-  ```
-  buildimage ProductA test
-  ```
+    ```
+    buildimage ProductA test
+    ```
+  
+    ![](/assets/rpi3_bsp_build_step_10.png)
 
-  ![](/assets/rpi3_bsp_build_step_10.png)
+  * ### 이미지 빌드가 완료
 
-* ### 이미지 빌드가 완료
+    #### 윈도우 탐색기를 이용하여 아래 경로로 이동하면 생성된 Windows 10 IoT Core 이미지가 있습니다.
 
-  #### 윈도우 탐색기를 이용하여 아래 경로로 이동하면 생성된 Windows 10 IoT Core 이미지가 있습니다.
+    ![](/assets/rpi3_bsp_build_step_11.png)
 
-  ![](/assets/rpi3_bsp_build_step_11.png)
+  * ### 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.
 
-* ### 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.
-
-  * #### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
+    * #### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
 
 ## Reference
 
