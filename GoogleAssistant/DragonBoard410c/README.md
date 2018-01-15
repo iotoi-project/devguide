@@ -30,7 +30,7 @@
     ```
     sudo apt-get install ssh
     ```
-  * ### [Install xrdp](./DragonBoard410c/how-to-install-xrdp.md)
+  * ### [Install xrdp](./how-to-install-xrdp.md)
 
 * ## Install Google Assistant
 
