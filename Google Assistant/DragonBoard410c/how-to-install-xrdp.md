@@ -1,9 +1,7 @@
 # Install XRDP for remote desktop server
 
 ## Install XRDP
-    ```
     $ sudo apt install -y xrdp tigervnc-standalone-server
-    ```
 
 ## Change /etc/xrdp/xrdp.ini
     ```
