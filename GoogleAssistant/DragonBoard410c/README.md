@@ -22,19 +22,98 @@
   * ### Change DIP switch as a SD Boot
 
     ![](/assets/dragonBoard410c_junper_sdboot.png)
+
   * ### Connect Power supply to DragonBoard 410c
   * ### Install Debian 17.04.1
 * ## Install utilities
 
   * ### Install ssh
+
     ```
     sudo apt-get install ssh
     ```
   * ### [Install xrdp](./how-to-install-xrdp.md)
-
 * ## Install Google Assistant
 
-  * Run 
+  * ### [Introduction to the Google Assistant Libaray](https://developers.google.com/assistant/sdk/guides/library/python/?hl=ko)
+  * Configure and Test the Audio
+
+  Verify that recording and playback work. You can do this in the system sound settings or from the command line:
+
+Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If you don't hear anything when you run this, check your speaker connection.
+
+1. ```
+   speaker-test -t wav
+   ```
+
+2. Record a short audio clip.
+
+   ```
+   arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
+   ```
+
+3. Check the recording by replaying it.
+
+   ```
+   aplay --format=S16_LE --rate=16000 out.raw
+   ```
+
+4. Adjust the playback and recording volume.
+
+   ```
+   alsamixer
+   ```
+
+Configure a Developer Project and Account Settings
+
+  
+
+
+Install the SDK and Sample Code
+
+## Configure a new Python virtual environment {#configure_a_new_python_virtual_environment}
+
+Use a[Python virtual environment](https://docs.python.org/3/library/venv.html)to isolate the SDK and its dependencies from the system Python packages.
+
+\(Recommended\) For Python 3:
+
+```
+sudo apt-get update
+sudo apt-get install python3-dev python3-venv
+ # Use python3.4-venv if the package cannot be found.
+python3 -m venv env
+env/bin/python -m pip install --upgrade pip setuptools
+source env/bin/activate
+```
+
+## Get the package {#get_the_package}
+
+The Google Assistant SDK package contains all the code required to get the Google Assistant running on the device, including the sample code.
+
+Install the package's system dependencies:
+
+```
+sudo apt-get install portaudio19-dev libffi-dev libssl-dev
+```
+
+## Generate credentials {#generate_credentials}
+
+1. Install or update the authorization tool:
+
+   ```
+   python -m pip install --upgrade google-auth-oauthlib[tool]
+   ```
+
+2. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
+
+   ```
+   google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype \
+             --save --headless --client-secrets 
+   /path/to/
+   client_secret_
+   client-id
+   .json
+   ```
 
 
 

@@ -1,0 +1,65 @@
+# Install vsftpd
+
+```
+$ sudo apt-get update
+$ sudo apt-get install vsftpd
+```
+
+기본설정 파일을 백업해 둔다.
+
+```
+$ sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
+```
+
+특정 User의 local shell에서 FTP 사용할 수 있도록 설정하기
+
+```
+$ sudo vim /etc/vsftpd.conf
+```
+
+파일을 열어서 아래와 같이 해당하는 부분들의 값들을 설정한다.
+
+```
+...
+
+# Allow anonymous FTP? (Disabled by default).
+anonymous_enable=NO
+#
+# Uncomment this to allow local users to log in.
+local_enable=YES
+
+...
+
+write_enable=YES
+
+...
+
+chroot_local_user=YES
+```
+
+지정된 사용자만 접속할 수 있도록 설정한다.
+
+```
+userlist_enable=YES
+userlist_file=/etc/vsftpd.userlist
+userlist_deny=NO
+```
+
+userlist\_deny를 YES로 하면 userlist에 있는 사용자들은 FTP 접근이 불가능 하고, 반대로 NO로 설정하면 userlist에 있는 사용자들만 FTP 접근이 가능하다.
+
+FTP를 허용해줄 사용자를 _/etc/vsftpd.userlist _에 추가한다.
+
+```
+$ echo "linaro" | sudo tee -a /etc/vsftpd.userlist
+$ cat /etc/vsftpd.userlist
+linaro
+```
+
+설정이 완료됐으면 vsftpd를 재시작 한다.
+
+```
+$ sudo systemctl restart vsftpd
+```
+
+
+
