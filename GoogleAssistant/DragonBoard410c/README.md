@@ -45,7 +45,6 @@ Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If
 1. ```
    speaker-test -t wav
    ```
-
 2. Record a short audio clip.
 
    ```
@@ -65,9 +64,6 @@ Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If
    ```
 
 Configure a Developer Project and Account Settings
-
-  
-
 
 Install the SDK and Sample Code
 
@@ -104,7 +100,11 @@ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
    python -m pip install --upgrade google-auth-oauthlib[tool]
    ```
 
-2. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
+2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
+
+       
+
+1. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
 
    ```
    google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype \

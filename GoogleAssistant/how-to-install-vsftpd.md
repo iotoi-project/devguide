@@ -40,18 +40,16 @@ chroot_local_user=YES
 지정된 사용자만 접속할 수 있도록 설정한다.
 
 ```
-userlist_enable=YES
-userlist_file=/etc/vsftpd.userlist
-userlist_deny=NO
+chroot_local_user=YES
+chroot_list_enable=YES
+chroot_list_file=/etc/vsftpd.chroot_list
 ```
-
-userlist\_deny를 YES로 하면 userlist에 있는 사용자들은 FTP 접근이 불가능 하고, 반대로 NO로 설정하면 userlist에 있는 사용자들만 FTP 접근이 가능하다.
 
 FTP를 허용해줄 사용자를 _/etc/vsftpd.userlist _에 추가한다.
 
 ```
-$ echo "linaro" | sudo tee -a /etc/vsftpd.userlist
-$ cat /etc/vsftpd.userlist
+$ echo "linaro" | sudo tee -a /etc/vsftpd.chroot_list
+$ cat /etc/vsftpd.chroot_list
 linaro
 ```
 
