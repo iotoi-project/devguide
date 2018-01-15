@@ -4,7 +4,7 @@
     $ sudo apt install -y xrdp tigervnc-standalone-server
 
 ## Change /etc/xrdp/xrdp.ini
-    ```
+```
    --- a/xrdp.ini     2017-06-19 14:05:53.290490260 +0900
    +++ b/xrdp.ini  2017-06-19 14:11:17.788557402 +0900
    @@ -147,15 +147,6 @@ tcutils=true
@@ -39,8 +39,7 @@
     [console]
     name=console
     lib=libvnc.so    
- 
-    ```
+```
 
 ## Restart XRDP
  ```
