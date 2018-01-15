@@ -12,7 +12,6 @@
     * #### MicroSD card with 4GB or more of storage
     * #### USB Mouse and/or keyboard
     * #### HDMI Monitor with full size HDMI cable
-    
 * ## Install Debian 17.04.1
 
   * ### [Etcher download](https://etcher.io/)
@@ -21,11 +20,21 @@
   * ### Select debian 17.04.1 binary
   * ### Insert microSD to DragonBoard 410c
   * ### Change DIP switch as a SD Boot
+
     ![](/assets/dragonBoard410c_junper_sdboot.png)
   * ### Connect Power supply to DragonBoard 410c
   * ### Install Debian 17.04.1
-  
+* ## Install utilities
+
+  * ### Install ssh
+    ```
+    sudo apt-get install ssh
+    ```
+  * ### [Install xrdp](./DragonBoard410c/how-to-install-xrdp.md)
+
 * ## Install Google Assistant
- * Run 
+
+  * Run 
+
 
 
