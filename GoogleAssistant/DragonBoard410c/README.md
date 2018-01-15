@@ -102,18 +102,32 @@ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
 
 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
 
-       
-
 1. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
 
    ```
-   google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype \
-             --save --headless --client-secrets 
-   /path/to/
-   client_secret_
-   client-id
-   .json
+   google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save   
    ```
+
+![](/assets/dragonBoard_google_assistant_step_1.png)![](/assets/dragonBoard_google_assistant_step_2.png)![](/assets/dragonBoard_google_assistant_step_3.png)
+
+![](/assets/dragonBoard_google_assistant_step_4.png)
+
+![](/assets/dragonBoard_google_assistant_step_5.png)
+
+
+
+Install gRPC
+
+```
+$ python -m pip install grpcio
+$ python -m pip install grpcio-tools 
+```
+
+```
+$ git clone https://github.com/googlesamples/assistant-sdk-python
+$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
+$ cd new-project
+```
 
 
 
