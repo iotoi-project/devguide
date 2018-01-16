@@ -41,21 +41,17 @@
       Verify that recording and playback work. You can do this in the system sound settings or from the command line:
 
       1. Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If you don't hear anything when you run this, check your speaker connection.
-
          ```
          speaker-test -t wav
          ```
       2. Record a short audio clip.
-
          ```
          arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
-        ```
-      
+         ```
       3. Check the recording by replaying it.
          ```
          aplay --format=S16_LE --rate=16000 out.raw
          ```
-      
       4. Adjust the playback and recording volume.
 
          ```
