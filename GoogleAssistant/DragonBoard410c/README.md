@@ -36,111 +36,113 @@
 * ## Install Google Assistant
 
   * ### [Introduction to the Google Assistant Libaray](https://developers.google.com/assistant/sdk/guides/library/python/?hl=ko)
-  * Configure and Test the Audio
+  
+    * #### Configure and Test the Audio
+      Verify that recording and playback work. You can do this in the system sound settings or from the command line:
 
-  Verify that recording and playback work. You can do this in the system sound settings or from the command line:
+      1. Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If you don't hear anything when you run this, check your speaker connection.
 
-Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If you don't hear anything when you run this, check your speaker connection.
+         ```
+         speaker-test -t wav
+         ```
+      2. Record a short audio clip.
 
-1. ```
-   speaker-test -t wav
-   ```
-2. Record a short audio clip.
+         ```
+         arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
+        ```
+      
+      3. Check the recording by replaying it.
+         ```
+         aplay --format=S16_LE --rate=16000 out.raw
+         ```
+      
+      4. Adjust the playback and recording volume.
 
-   ```
-   arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
-   ```
+         ```
+         alsamixer
+         ```
+      
+  * ## [Configure a Developer Project and Account Settings](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=en)
 
-3. Check the recording by replaying it.
+  * ## Install the SDK and Sample Code
 
-   ```
-   aplay --format=S16_LE --rate=16000 out.raw
-   ```
+    * ### Configure a new Python virtual environment 
 
-4. Adjust the playback and recording volume.
+      Use a[Python virtual environment](https://docs.python.org/3/library/venv.html) to isolate the SDK and its dependencies from the system Python packages.
 
-   ```
-   alsamixer
-   ```
+      \(Recommended\) For Python 3:
 
-Configure a Developer Project and Account Settings
+      ```
+      sudo apt-get update
+      sudo apt-get install python3-dev python3-venv
+       # Use python3.4-venv if the package cannot be found.
+      python3 -m venv env
+      env/bin/python -m pip install --upgrade pip setuptools
+      source env/bin/activate
+      ```
 
-Install the SDK and Sample Code
+    * ### Get the package {#get_the_package}
 
-## Configure a new Python virtual environment {#configure_a_new_python_virtual_environment}
+      The Google Assistant SDK package contains all the code required to get the Google Assistant running on the device, including the sample code.
+      
+      Install the package's system dependencies:
 
-Use a[Python virtual environment](https://docs.python.org/3/library/venv.html)to isolate the SDK and its dependencies from the system Python packages.
+      ```
+      (env) linaro@linaro-alip:~$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
+      ```
 
-\(Recommended\) For Python 3:
+    * ### Generate credentials {#generate_credentials}
 
-```
-sudo apt-get update
-sudo apt-get install python3-dev python3-venv
- # Use python3.4-venv if the package cannot be found.
-python3 -m venv env
-env/bin/python -m pip install --upgrade pip setuptools
-source env/bin/activate
-```
+      1. Install or update the authorization tool:
 
-## Get the package {#get_the_package}
+         ```
+         (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
+         ```
 
-The Google Assistant SDK package contains all the code required to get the Google Assistant running on the device, including the sample code.
+      2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
 
-Install the package's system dependencies:
+      3. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
 
-```
-(env) linaro@linaro-alip:~$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
-```
+         ```
+         (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
+         ```
+        ![](/assets/dragonBoard_google_assistant_step_1.png)
+        
+        ![](/assets/dragonBoard_google_assistant_step_2.png)
+        
+        ![](/assets/dragonBoard_google_assistant_step_3.png)
+        
+        ![](/assets/dragonBoard_google_assistant_step_4.png)
+        
+        ![](/assets/dragonBoard_google_assistant_step_5.png)
+        
+      4. Install gRPC
 
-## Generate credentials {#generate_credentials}
+        ```
+        (env) linaro@linaro-alip:~$ python -m pip install grpcio
+        (env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
+        (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
+        (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
+        Device Model Id: my-dev-project-model
+                Project Id: marine-outpost-191105
+                Device Type: action.devices.types.LIGHT
+        No traits
+        ```
 
-1. Install or update the authorization tool:
+        ```
+        (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
+        (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
+        (env) linaro@linaro-alip:~$ cd new-project
+        ```
 
-   ```
-   (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
-   ```
+      5. Run Google Assistant
 
-2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
-
-3. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
-
-   ```
-   (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
-   ```
-
-![](/assets/dragonBoard_google_assistant_step_1.png)![](/assets/dragonBoard_google_assistant_step_2.png)![](/assets/dragonBoard_google_assistant_step_3.png)
-
-![](/assets/dragonBoard_google_assistant_step_4.png)
-
-![](/assets/dragonBoard_google_assistant_step_5.png)
-
-Install gRPC
-
-```
-(env) linaro@linaro-alip:~$ python -m pip install grpcio
-(env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
-(env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
-(env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
-Device Model Id: my-dev-project-model
-        Project Id: marine-outpost-191105
-        Device Type: action.devices.types.LIGHT
-No traits
-```
-
-```
-(env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
-(env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
-(env) linaro@linaro-alip:~$ cd new-project
-```
-
-Run Google Assistant
-
-```
-(env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
-INFO:root:Connecting to embeddedassistant.googleapis.com
-Press Enter to send a new request...
-
-```
+        ```
+        (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
+        INFO:root:Connecting to embeddedassistant.googleapis.com
+        Press Enter to send a new request...
+        
+        ```
 
 
 
