@@ -12,17 +12,17 @@
     * ##### USB Mouse and/or keyboard
     * ##### HDMI Monitor with full size HDMI cable
 * ## Install Debian 17.04.1
-    ##### 1. [Etcher download](https://etcher.io/)
-    ##### 2. Install etcher
-    ##### 3. Run etcher
-    ##### 4. Select debian 17.04.1 binary
-    ##### 5. Insert microSD to DragonBoard 410c
-    ##### 6. Change DIP switch as a SD Boot
-  
-      ![](/assets/dragonBoard410c_junper_sdboot.png)
-  
-    ##### 7. Connect Power supply to DragonBoard 410c
-    ##### 8. Install Debian 17.04.1
+      ##### 1. [Etcher download](https://etcher.io/)
+      ##### 2. Install etcher
+      ##### 3. Run etcher
+      ##### 4. Select debian 17.04.1 binary
+      ##### 5. Insert microSD to DragonBoard 410c
+      ##### 6. Change DIP switch as a SD Boot
+    
+        ![](/assets/dragonBoard410c_junper_sdboot.png)
+    
+      ##### 7. Connect Power supply to DragonBoard 410c
+      ##### 8. Install Debian 17.04.1
   
 * ## Install utilities
 
