@@ -64,7 +64,7 @@
 
     * ### Configure a new Python virtual environment 
 
-      Use a[Python virtual environment](https://docs.python.org/3/library/venv.html) to isolate the SDK and its dependencies from the system Python packages.
+      Use a [Python virtual environment](https://docs.python.org/3/library/venv.html) to isolate the SDK and its dependencies from the system Python packages.
 
       \(Recommended\) For Python 3.
 
@@ -95,6 +95,11 @@
          ```
   
         ##### 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
+        
+        ##### 3. Generate credentials to be able to run the sample code and tools. You may need to copy it the device. *** Do not rename this file. ***
+         ```
+         (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
+         ```
          
         ![](/assets/dragonBoard_google_assistant_step_1.png)
         
