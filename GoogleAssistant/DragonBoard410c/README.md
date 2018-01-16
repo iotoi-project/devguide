@@ -88,7 +88,7 @@
 
     * ### Generate credentials {#generate_credentials}
 
-        ##### 1. Install or update the authorization tool:
+        ##### 1. Install or update the authorization tool
 
          ```
          (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
