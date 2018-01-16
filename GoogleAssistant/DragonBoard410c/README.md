@@ -66,7 +66,7 @@
 
       Use a[Python virtual environment](https://docs.python.org/3/library/venv.html) to isolate the SDK and its dependencies from the system Python packages.
 
-      \(Recommended\) For Python 3:
+      \(Recommended\) For Python 3.
 
       ```
       linaro@linaro-alip:~$ sudo apt-get update
@@ -80,7 +80,7 @@
 
       The Google Assistant SDK package contains all the code required to get the Google Assistant running on the device, including the sample code.
       
-      Install the package's system dependencies:
+      Install the package's system dependencies.
 
       ```
       (env) linaro@linaro-alip:~$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
