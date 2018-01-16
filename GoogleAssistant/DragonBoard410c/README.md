@@ -109,7 +109,7 @@
           
           ![](/assets/dragonBoard_google_assistant_step_4.png)
           
-          ![](/assets/dragonBoard_google_assistant_step_5.png)
+![](/assets/dragonBoard_google_assistant_step_5.png)
         
         ##### 4. Install gRPC
 
