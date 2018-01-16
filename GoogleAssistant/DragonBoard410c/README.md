@@ -89,7 +89,7 @@ The Google Assistant SDK package contains all the code required to get the Googl
 Install the package's system dependencies:
 
 ```
-sudo apt-get install portaudio19-dev libffi-dev libssl-dev
+(env) linaro@linaro-alip:~$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
 ```
 
 ## Generate credentials {#generate_credentials}
@@ -97,15 +97,15 @@ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
 1. Install or update the authorization tool:
 
    ```
-   python -m pip install --upgrade google-auth-oauthlib[tool]
+   (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
    ```
 
 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
 
-1. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
+3. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
 
    ```
-   google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save   
+   (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
    ```
 
 ![](/assets/dragonBoard_google_assistant_step_1.png)![](/assets/dragonBoard_google_assistant_step_2.png)![](/assets/dragonBoard_google_assistant_step_3.png)
@@ -114,19 +114,32 @@ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
 
 ![](/assets/dragonBoard_google_assistant_step_5.png)
 
-
-
 Install gRPC
 
 ```
-$ python -m pip install grpcio
-$ python -m pip install grpcio-tools 
+(env) linaro@linaro-alip:~$ python -m pip install grpcio
+(env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
+(env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
+(env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
+Device Model Id: my-dev-project-model
+        Project Id: marine-outpost-191105
+        Device Type: action.devices.types.LIGHT
+No traits
 ```
 
 ```
-$ git clone https://github.com/googlesamples/assistant-sdk-python
-$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
-$ cd new-project
+(env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
+(env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
+(env) linaro@linaro-alip:~$ cd new-project
+```
+
+Run Google Assistant
+
+```
+(env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
+INFO:root:Connecting to embeddedassistant.googleapis.com
+Press Enter to send a new request...
+
 ```
 
 
