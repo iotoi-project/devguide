@@ -97,9 +97,7 @@
         ##### 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
         ##### 3. Generate credentials to be able to run the sample code and tools. You may need to copy it the device. Do not rename this file.
   
-         ```
-         (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_xxxxxx.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
-         ```
+
          
           ![](/assets/dragonBoard_google_assistant_step_1.png)
           
