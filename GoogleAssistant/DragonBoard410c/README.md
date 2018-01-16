@@ -122,21 +122,16 @@
                   Device Type: action.devices.types.LIGHT
           No traits
   
-          ```
           (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
           (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
           (env) linaro@linaro-alip:~$ cd new-project
-          ```
 
         ##### 5. Run Google Assistant
           Finally, run the push to talk sample. The sample records a voice query after a keypress and plays back the Google Assistant’s answer:
   
-            ```
             (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
             INFO:root:Connecting to embeddedassistant.googleapis.com
             Press Enter to send a new request...
-            
-            ```
 
 
 
