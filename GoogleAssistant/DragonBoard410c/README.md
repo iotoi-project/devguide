@@ -100,6 +100,7 @@
          ```
          (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_xxxxxx.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
          ```
+         
           ![](/assets/dragonBoard_google_assistant_step_1.png)
           
           ![](/assets/dragonBoard_google_assistant_step_2.png)
