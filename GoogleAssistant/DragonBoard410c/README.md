@@ -100,9 +100,6 @@
          ```
          (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_xxxxxx.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
          ```
-   
-              
-                            
           ![](/assets/dragonBoard_google_assistant_step_1.png)
           
           ![](/assets/dragonBoard_google_assistant_step_2.png)
@@ -113,7 +110,7 @@
           
           ![](/assets/dragonBoard_google_assistant_step_5.png)
         
-      ##### 4. Install gRPC
+        ##### 4. Install gRPC
 
           ```
           (env) linaro@linaro-alip:~$ python -m pip install grpcio
@@ -132,15 +129,15 @@
           (env) linaro@linaro-alip:~$ cd new-project
           ```
 
-      5. Run Google Assistant
-        Finally, run the push to talk sample. The sample records a voice query after a keypress and plays back the Google Assistant’s answer:
-
-          ```
-          (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
-          INFO:root:Connecting to embeddedassistant.googleapis.com
-          Press Enter to send a new request...
-          
-          ```
+        ##### 5. Run Google Assistant
+          Finally, run the push to talk sample. The sample records a voice query after a keypress and plays back the Google Assistant’s answer:
+  
+            ```
+            (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
+            INFO:root:Connecting to embeddedassistant.googleapis.com
+            Press Enter to send a new request...
+            
+            ```
 
 
 
