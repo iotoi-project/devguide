@@ -96,15 +96,15 @@
   
         ##### 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
          
-          ![](/assets/dragonBoard_google_assistant_step_1.png)
+        ![](/assets/dragonBoard_google_assistant_step_1.png)
+        
+        ![](/assets/dragonBoard_google_assistant_step_2.png)
+        
+        ![](/assets/dragonBoard_google_assistant_step_3.png)
+        
+        ![](/assets/dragonBoard_google_assistant_step_4.png)
           
-          ![](/assets/dragonBoard_google_assistant_step_2.png)
-          
-          ![](/assets/dragonBoard_google_assistant_step_3.png)
-          
-          ![](/assets/dragonBoard_google_assistant_step_4.png)
-          
-![](/assets/dragonBoard_google_assistant_step_5.png)
+        ![](/assets/dragonBoard_google_assistant_step_5.png)
         
         ##### 4. Install gRPC
 
