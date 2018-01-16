@@ -101,15 +101,15 @@
          ```
          (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
          ```
-        ![](/assets/dragonBoard_google_assistant_step_1.png)
-        
-        ![](/assets/dragonBoard_google_assistant_step_2.png)
-        
-        ![](/assets/dragonBoard_google_assistant_step_3.png)
-        
-        ![](/assets/dragonBoard_google_assistant_step_4.png)
-        
-        ![](/assets/dragonBoard_google_assistant_step_5.png)
+          ![](/assets/dragonBoard_google_assistant_step_1.png)
+          
+          ![](/assets/dragonBoard_google_assistant_step_2.png)
+          
+          ![](/assets/dragonBoard_google_assistant_step_3.png)
+          
+          ![](/assets/dragonBoard_google_assistant_step_4.png)
+          
+          ![](/assets/dragonBoard_google_assistant_step_5.png)
         
       4. Install gRPC
 
