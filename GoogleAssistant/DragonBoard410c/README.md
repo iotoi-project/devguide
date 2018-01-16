@@ -40,19 +40,19 @@
     * #### Configure and Test the Audio
       Verify that recording and playback work. You can do this in the system sound settings or from the command line.
 
-      1. Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If you don't hear anything when you run this, check your speaker connection.
+      ##### 1. Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If you don't hear anything when you run this, check your speaker connection.
          ```
          speaker-test -t wav
          ```
-      2. Record a short audio clip.
+      ##### 2. Record a short audio clip.
          ```
          arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
          ```
-      3. Check the recording by replaying it.
+      ##### 3. Check the recording by replaying it.
          ```
          aplay --format=S16_LE --rate=16000 out.raw
          ```
-      4. Adjust the playback and recording volume.
+      ##### 4. Adjust the playback and recording volume.
 
          ```
          alsamixer
@@ -88,19 +88,22 @@
 
     * ### Generate credentials {#generate_credentials}
 
-    1. Install or update the authorization tool:
+      ##### 1. Install or update the authorization tool:
 
        ```
        (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
        ```
 
-    2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
-
-    3. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
+      ##### 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
+      ##### 3. Generate credentials to be able to run the sample code and tools. You may need to copy it the device. Do not rename this file.
 
        ```
-       (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
+       (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_xxxxxx.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
        ```
+
+       
+              
+                            
           ![](/assets/dragonBoard_google_assistant_step_1.png)
           
           ![](/assets/dragonBoard_google_assistant_step_2.png)
@@ -111,7 +114,7 @@
           
           ![](/assets/dragonBoard_google_assistant_step_5.png)
         
-      4. Install gRPC
+      ##### 4. Install gRPC
 
           ```
           (env) linaro@linaro-alip:~$ python -m pip install grpcio
@@ -131,6 +134,7 @@
           ```
 
       5. Run Google Assistant
+        Finally, run the push to talk sample. The sample records a voice query after a keypress and plays back the Google Assistant’s answer:
 
           ```
           (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
