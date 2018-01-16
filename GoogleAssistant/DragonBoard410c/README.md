@@ -94,7 +94,7 @@
          ```
   
         ##### 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
-          [How to install vsftpd](../how-to-install-vsftpd.md)
+        [How to install vsftpd](./how-to-install-vsftpd.md)
         
         ##### 3. Generate credentials to be able to run the sample code and tools. You may need to copy it the device. *** Do not rename this file. ***
          ```
