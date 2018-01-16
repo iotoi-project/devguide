@@ -6,25 +6,25 @@
 
   * ### [Debian 17.04.1 download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/17.04.1/dragonboard410c_sdcard_install_debian-246.zip)
   * ### This method requires the following hardware:
-
-    * #### DragonBoard 410c with power supply
-    * #### Host machine \(Linux, Mac OS X, or Windows\)
-    * #### MicroSD card with 4GB or more of storage
-    * #### USB Mouse and/or keyboard
-    * #### HDMI Monitor with full size HDMI cable
+    * ##### DragonBoard 410c with power supply
+    * ##### Host machine \(Linux, Mac OS X, or Windows\)
+    * ##### MicroSD card with 4GB or more of storage
+    * ##### USB Mouse and/or keyboard
+    * ##### HDMI Monitor with full size HDMI cable
 * ## Install Debian 17.04.1
 
-  * ### [Etcher download](https://etcher.io/)
-  * ### Install etcher
-  * ### Run etcher
-  * ### Select debian 17.04.1 binary
-  * ### Insert microSD to DragonBoard 410c
-  * ### Change DIP switch as a SD Boot
+  #### 1. [Etcher download](https://etcher.io/)
+  #### 2. Install etcher
+  #### 3. Run etcher
+  #### 4. Select debian 17.04.1 binary
+  #### 5. Insert microSD to DragonBoard 410c
+  #### 6. Change DIP switch as a SD Boot
 
     ![](/assets/dragonBoard410c_junper_sdboot.png)
 
-  * ### Connect Power supply to DragonBoard 410c
-  * ### Install Debian 17.04.1
+  #### 7. Connect Power supply to DragonBoard 410c
+  #### 8. Install Debian 17.04.1
+  
 * ## Install utilities
 
   * ### Install ssh
