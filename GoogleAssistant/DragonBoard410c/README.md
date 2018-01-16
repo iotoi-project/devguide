@@ -69,12 +69,12 @@
       \(Recommended\) For Python 3:
 
       ```
-      sudo apt-get update
-      sudo apt-get install python3-dev python3-venv
+      linaro@linaro-alip:~$ sudo apt-get update
+      linaro@linaro-alip:~$ sudo apt-get install python3-dev python3-venv
        # Use python3.4-venv if the package cannot be found.
-      python3 -m venv env
-      env/bin/python -m pip install --upgrade pip setuptools
-      source env/bin/activate
+      linaro@linaro-alip:~$ python3 -m venv env
+      linaro@linaro-alip:~$ env/bin/python -m pip install --upgrade pip setuptools
+      linaro@linaro-alip:~$ source env/bin/activate
       ```
 
     * ### Get the package {#get_the_package}
