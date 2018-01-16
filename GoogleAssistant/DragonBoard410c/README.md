@@ -113,7 +113,6 @@
         
         ##### 4. Install gRPC
 
-          ```
           (env) linaro@linaro-alip:~$ python -m pip install grpcio
           (env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
           (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
@@ -122,7 +121,6 @@
                   Project Id: marine-outpost-191105
                   Device Type: action.devices.types.LIGHT
           No traits
-          ```
   
           ```
           (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
