@@ -38,7 +38,7 @@
   * ### [Introduction to the Google Assistant Libaray](https://developers.google.com/assistant/sdk/guides/library/python/?hl=ko)
   
     * #### Configure and Test the Audio
-      Verify that recording and playback work. You can do this in the system sound settings or from the command line:
+      Verify that recording and playback work. You can do this in the system sound settings or from the command line.
 
       1. Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If you don't hear anything when you run this, check your speaker connection.
          ```
