@@ -70,7 +70,7 @@
 
       ```
       linaro@linaro-alip:~$ sudo apt-get update
-      linaro@linaro-alip:~$ sudo apt-get install python3-dev python3-venv # Use python3.4-venv if the package cannot be found.
+      linaro@linaro-alip:~$ sudo apt-get install python3-dev python3-venv
       linaro@linaro-alip:~$ python3 -m venv env
       linaro@linaro-alip:~$ env/bin/python -m pip install --upgrade pip setuptools
       linaro@linaro-alip:~$ source env/bin/activate
