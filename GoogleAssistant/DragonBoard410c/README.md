@@ -88,19 +88,19 @@
 
     * ### Generate credentials {#generate_credentials}
 
-      1. Install or update the authorization tool:
+    1. Install or update the authorization tool:
 
-         ```
-         (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
-         ```
+       ```
+       (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
+       ```
 
-      2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
+    2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
 
-      3. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
+    3. Generate credentials to be able to run the sample code and tools. Reference the JSON file you downloaded in a previous[step](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=ko); you may need to copy it the device. Do not rename this file.
 
-         ```
-         (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
-         ```
+       ```
+       (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_907310496142-9urlj5388fgfgkj9clhcbeou3atpl5gb.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
+       ```
           ![](/assets/dragonBoard_google_assistant_step_1.png)
           
           ![](/assets/dragonBoard_google_assistant_step_2.png)
