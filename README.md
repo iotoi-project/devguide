@@ -1,12 +1,5 @@
 # Introduction
 
-<<<<<<< HEAD
----
-
-## IoToI Open Source Project
-
-IoT를 위한
-=======
 Developer Guide provides all visitors with HW and SW information regarding codes from the IoToI opensource site.
 
 
@@ -33,5 +26,4 @@ At the community menu, you can leave opinions and issues only after sign-in at t
 5. Release History    
 
 This menu is for the release information for all HW & SW which are provided at IoToI site.
->>>>>>> cf17499fc17b8ec9d4318b128c9c55c66328c66b
 
