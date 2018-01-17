@@ -148,47 +148,56 @@
         (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_XXXXXX.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
         ```
 
-        Step 1\)
+        Step 1\) Please visit this URL to authorize this application 뒤에 나오는 URL을 복사하여 브라우져를 이용하여 접속합니다.
 
-        ##### ![](/assets/dragonBoard_google_assistant_step_1.png)
+        ![](/assets/dragonBoard_google_assistant_step_1.png)
 
-      ##### ![](/assets/dragonBoard_google_assistant_step_2.png)
+        Step 2\) 가지고 있는 google 계정을 입력하고 "NEXT"를 클릭합니다.
 
-  ##### ![](/assets/dragonBoard_google_assistant_step_3.png)
+        ![](/assets/dragonBoard_google_assistant_step_2.png)
 
-  ##### ![](/assets/dragonBoard_google_assistant_step_4.png)
+        Step 3\)  패스워드를 입력하고 "NEXT" 클릭합니다.
 
-  ##### ![](/assets/dragonBoard_google_assistant_step_5.png)![](/assets/dragonBoard_google_assistant_step_6.png)
+        ![](/assets/dragonBoard_google_assistant_step_3.png)
 
-  ##### 
-* * ##### 
-* * ##### 
-* * ##### 4. Install gRPC
+        Step 4\) 새로 생성한 "Google Assistant for db410" 프로젝트에 대해 계정 접근을 허용합니다. "ALLOW"를 클릭합니다.
+
+        ![](/assets/dragonBoard_google_assistant_step_4.png)
+        
+        Step 5\) 생성된 코드를 복사합니다.
+        
+        ![](/assets/dragonBoard_google_assistant_step_5.png)
+        
+        Step 6\) 복사한 코드를 terminal에 복사합니다.
+       
+        ![](/assets/dragonBoard_google_assistant_step_6.png)
+
+    * ##### 4. Install gRPC
 
     ```
-      (env) linaro@linaro-alip:~$ python -m pip install grpcio
-      (env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
-      (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
-      (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
-      Device Model Id: my-dev-project-model
-              Project Id: marine-outpost-191105
-              Device Type: action.devices.types.LIGHT
-      No traits
+    (env) linaro@linaro-alip:~$ python -m pip install grpcio
+    (env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
+    (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
+    (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
+    Device Model Id: my-dev-project-model
+            Project Id: marine-outpost-191105
+            Device Type: action.devices.types.LIGHT
+    No traits
 
-      (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
-      (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
-      (env) linaro@linaro-alip:~$ cd new-project
+    (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
+    (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
+    (env) linaro@linaro-alip:~$ cd new-project
     ```
 
     ##### 5. Run Google Assistant
 
     Finally, run the push to talk sample. The sample records a voice query after a keypress and plays back the Google Assistant’s answer.
 
-```
-      (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
-      INFO:root:Connecting to embeddedassistant.googleapis.com
-      Press Enter to send a new request...
-```
+    ```
+    (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
+    INFO:root:Connecting to embeddedassistant.googleapis.com
+    Press Enter to send a new request...
+    ```
 
 
 
