@@ -31,10 +31,6 @@ local_enable=YES
 ...
 
 write_enable=YES
-
-...
-
-chroot_local_user=YES
 ```
 
 지정된 사용자만 접속할 수 있도록 설정한다.
