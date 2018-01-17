@@ -103,80 +103,86 @@
          alsamixer
       ```
   * ## [Configure a Developer Project and Account Settings](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=en)
-  * ## Install the SDK and Sample Code
 
-    * ### Configure a new Python virtual environment
+    * ## Install the SDK and Sample Code
 
-      Use a [Python virtual environment](https://docs.python.org/3/library/venv.html) to isolate the SDK and its dependencies from the system Python packages.
+      * ### Configure a new Python virtual environment
 
-      \(Recommended\) For Python 3.
+        Use a [Python virtual environment](https://docs.python.org/3/library/venv.html) to isolate the SDK and its dependencies from the system Python packages.
 
-      ```
-      linaro@linaro-alip:~$ sudo apt-get update
-      linaro@linaro-alip:~$ sudo apt-get install python3-dev python3-venv
-      linaro@linaro-alip:~$ python3 -m venv env
-      linaro@linaro-alip:~$ env/bin/python -m pip install --upgrade pip setuptools
-      linaro@linaro-alip:~$ source env/bin/activate
-      ```
+        \(Recommended\) For Python 3.
 
-    * ### Get the package {#get_the_package}
+        ```
+        linaro@linaro-alip:~$ sudo apt-get update
+        linaro@linaro-alip:~$ sudo apt-get install python3-dev python3-venv
+        linaro@linaro-alip:~$ python3 -m venv env
+        linaro@linaro-alip:~$ env/bin/python -m pip install --upgrade pip setuptools
+        linaro@linaro-alip:~$ source env/bin/activate
+        ```
 
-      The Google Assistant SDK package contains all the code required to get the Google Assistant running on the device, including the sample code.
+      * ### Get the package {#get_the_package}
 
-      Install the package's system dependencies.
+        The Google Assistant SDK package contains all the code required to get the Google Assistant running on the device, including the sample code.
 
-      ```
-      (env) linaro@linaro-alip:~$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
-      ```
+        Install the package's system dependencies.
 
-    * ### Generate credentials {#generate_credentials}
+        ```
+        (env) linaro@linaro-alip:~$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
+        ```
 
-      ##### 1. Install or update the authorization tool
+      * ### Generate credentials {#generate_credentials}
 
-      ```
-         (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
-      ```
+        ##### 1. Install or update the authorization tool
 
-      ##### 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
+        ```
+           (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-auth-oauthlib[tool]
+        ```
 
-      [How to install vsftpd](./how-to-install-vsftpd.md)
+        ##### 2. vsftp나 scp를 사용하여 client\_secret\_xxx.json 파일을 dragonboard에 upload합니다.
 
-      ##### 3. Generate credentials to be able to run the sample code and tools. You may need to copy it the device. _** Do not rename this file. **_
+        [How to install vsftpd](./how-to-install-vsftpd.md)
 
-      ```
-         (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_XXXXXX.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save
-      ```
+        ##### 3. Generate credentials to be able to run the sample code and tools. You may need to copy it the device. _** Do not rename this file. **_
 
-      ![](/assets/dragonBoard_google_assistant_step_1.png)
+        ```
+        (env) linaro@linaro-alip:~$ google-oauthlib-tool --client-secrets /home/linaro/client_secret_XXXXXX.apps.googleusercontent.com.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
+        ```
 
-      ![](/assets/dragonBoard_google_assistant_step_2.png)
+        Step 1\)
 
-      ![](/assets/dragonBoard_google_assistant_step_3.png)
+        ##### ![](/assets/dragonBoard_google_assistant_step_1.png)
 
-      ![](/assets/dragonBoard_google_assistant_step_4.png)
+      ##### ![](/assets/dragonBoard_google_assistant_step_2.png)
 
-      ![](/assets/dragonBoard_google_assistant_step_5.png)
+  ##### ![](/assets/dragonBoard_google_assistant_step_3.png)
 
-      ##### 4. Install gRPC
+  ##### ![](/assets/dragonBoard_google_assistant_step_4.png)
 
-      ```
-        (env) linaro@linaro-alip:~$ python -m pip install grpcio
-        (env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
-        (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
-        (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
-        Device Model Id: my-dev-project-model
-                Project Id: marine-outpost-191105
-                Device Type: action.devices.types.LIGHT
-        No traits
+  ##### ![](/assets/dragonBoard_google_assistant_step_5.png)![](/assets/dragonBoard_google_assistant_step_6.png)
 
-        (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
-        (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
-        (env) linaro@linaro-alip:~$ cd new-project
-      ```
+  ##### 
+* * ##### 
+* * ##### 
+* * ##### 4. Install gRPC
 
-      ##### 5. Run Google Assistant
+    ```
+      (env) linaro@linaro-alip:~$ python -m pip install grpcio
+      (env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
+      (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
+      (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
+      Device Model Id: my-dev-project-model
+              Project Id: marine-outpost-191105
+              Device Type: action.devices.types.LIGHT
+      No traits
 
-      Finally, run the push to talk sample. The sample records a voice query after a keypress and plays back the Google Assistant’s answer.
+      (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
+      (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
+      (env) linaro@linaro-alip:~$ cd new-project
+    ```
+
+    ##### 5. Run Google Assistant
+
+    Finally, run the push to talk sample. The sample records a voice query after a keypress and plays back the Google Assistant’s answer.
 
 ```
       (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
