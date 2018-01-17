@@ -1,5 +1,8 @@
 # Introduction
 
+Developer Guide provides all visitors with HW and SW information regarding codes from the IoToI opensource site.
+
+
 1. Chip/Board HW Info
 
 This section is to let visitors know all HW information (Specification, Architecture, How to develop, providers etc) about Chip and Board
