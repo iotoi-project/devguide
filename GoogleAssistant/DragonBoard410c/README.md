@@ -183,21 +183,21 @@
     * ##### 5. Register the Device Model
         [Google document of register the device model](https://developers.google.com/assistant/sdk/guides/library/python/embed/register-device?hl=en)
 
-        ```
-    (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool register-model --manufacturer "Assistant SDK developer" --product-name "Assistant SDK light" --type LIGHT --model roy-model
-    
-    (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
-
-    Device Model Id: roy-model
-        Project Id: lofty-ivy-192309
-        Device Type: action.devices.types.LIGHT
-    No traits
-    ```
-    
-    (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
-    (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
-    (env) linaro@linaro-alip:~$ cd new-project
-    ```
+      ```
+      (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool register-model --manufacturer "Assistant SDK developer" --product-name "Assistant SDK light" --type LIGHT --model roy-model
+      
+      (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
+  
+      Device Model Id: roy-model
+          Project Id: lofty-ivy-192309
+          Device Type: action.devices.types.LIGHT
+      No traits
+      ```
+      ```
+      (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
+      (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
+      (env) linaro@linaro-alip:~$ cd new-project
+      ```
 
     ##### 6. Run Google Assistant
 
