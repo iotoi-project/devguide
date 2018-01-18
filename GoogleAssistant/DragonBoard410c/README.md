@@ -178,23 +178,33 @@
     (env) linaro@linaro-alip:~$ python -m pip install grpcio
     (env) linaro@linaro-alip:~$ python -m pip install grpcio-tools
     (env) linaro@linaro-alip:~$ python -m pip install --upgrade google-assistant-sdk[samples]
-    (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
-    Device Model Id: my-dev-project-model
-            Project Id: marine-outpost-191105
-            Device Type: action.devices.types.LIGHT
-    No traits
+    ```
+    
+    * ##### 5. Register the Device Model
+        [Google document of register the device model](https://developers.google.com/assistant/sdk/guides/library/python/embed/register-device?hl=en)
 
+        ```
+    (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool register-model --manufacturer "Assistant SDK developer" --product-name "Assistant SDK light" --type LIGHT --model roy-model
+    
+    (env) linaro@linaro-alip:~$ googlesamples-assistant-devicetool list --model
+
+    Device Model Id: roy-model
+        Project Id: lofty-ivy-192309
+        Device Type: action.devices.types.LIGHT
+    No traits
+    ```
+    
     (env) linaro@linaro-alip:~$ git clone https://github.com/googlesamples/assistant-sdk-python
     (env) linaro@linaro-alip:~$ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc new-project
     (env) linaro@linaro-alip:~$ cd new-project
     ```
 
-    ##### 5. Run Google Assistant
+    ##### 6. Run Google Assistant
 
     Finally, run the push to talk sample. The sample records a voice query after a keypress and plays back the Google Assistant’s answer.
 
     ```
-    (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id my-dev-project-model --project-id marine-outpost-191105
+    (env) linaro@linaro-alip:~/new-project$ python -m pushtotalk --device-model-id roy-model --project-id lofty-ivy-192309
     INFO:root:Connecting to embeddedassistant.googleapis.com
     Press Enter to send a new request...
     ```
