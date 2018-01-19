@@ -35,4 +35,6 @@
         "fontSize": 12,
         "paperSize": "a4"
     }
+    "struncture": {
+        "readme": "INTRO.md"
 }
