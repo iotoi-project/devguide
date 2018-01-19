@@ -8,6 +8,6 @@
 
 2. AVS sample app 설치
 
-3. 
+3. AVS 실행
 
 
