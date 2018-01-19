@@ -4,7 +4,8 @@
     "links": {
         "sidebar": {
             "Home": "https://www.iotoi.io",
-            "Contribute": "https://github.com/iotoi-project/devguide"
+            "Contribute": "https://github.com/iotoi-project/",
+            "Community": "https://iotoi.io/community/"
         },
         "sharing": {
             "google": "https://www.iotoi.io",

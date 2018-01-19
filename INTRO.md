@@ -1,24 +1,24 @@
 # IoToI Project Developer Guide
 
-Developer Guide provides all visitors with HW and SW information regarding codes from the IoToI opensource site
+Developer Guide provides all visitors with SW and HW information regarding codes from the [IoToI opensource site](https://iotoi.io).
 
-1. Chip/Board HW Info
+## Document Overview
+### Release History
+This menu is for the release information for all HW & SW which are provided at IoToI site.
 
-This section is to let visitors know all HW information \(Specification, Architecture, How to develop, providers etc\) about Chip and Board
 
-1. Chip/Board SW Info 
+### Software guide
+This section is to let visitors know all SW information (Architecture, Feature, How to develop etc) about [IoToI github source code](https://github.com/iotoi-project).
 
-This section is to let visitors know all SW information \(Specification, Architecture, How to develop, company etc\) about Chip and Board.
 
-1. Usage Explanation    
+### Hardware guide
+This section is to let visitors know all HW information (Specification, Architecture, How to develop, providers etc) about Chip and Board.
 
+### Resources
+#### Q&A
+At the [community](https://iotoi.io/community/category/4/comments-feedback) menu, you can leave opinions and questions only after sign-in at this site. Many contributors will help you and share good ideas for further improvement.
+
+#### Usage Explanation    
 This section is to let visitors figure out how to design, develop, release the SW and HW regarding IoT devices. We provide all detail information including source code to help opensource users.
 
-1. Q&A and Issue   
-
-At the community menu, you can leave opinions and issues only after sign-in at this site. Many contributors will help you and share good ideas for further improvement.
-
-1. Release History    
-
-This menu is for the release information for all HW & SW which are provided at IoToI site.
 

@@ -1,1 +1,9 @@
-_book/
+.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+_book/*
+node_modules/
+.bundle/
+vendor/bundle/
