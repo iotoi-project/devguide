@@ -21,7 +21,6 @@ AVS는 Oracle JDK 1.8 버전을 사용합니다.
 
 Oracle JDK 1.8 설치하기
 
-
 AVS sample app 받기
 
 ```
@@ -32,7 +31,8 @@ $ git clone https://github.com/alexa/alexa-avs-sample-app.git
 
 ```
 $ cd alexa-avs-sample-app
-nano automated_install.sh
+$ mv samples/javaclient/install-java8.sh samples/javaclient/install-java8.sh-
+$ nano automated_install.sh
 ```
 
 빨간색 부분을 수정합니다.![](/assets/avs_script_edit_1.jpg)
@@ -67,7 +67,7 @@ chmod +x automated_install.sh
 
 ![](/assets/avs_script_edit_6.jpg)
 
-스크립트에 입력한 ProductID, ClientID, ClientSecret가 정확한지 확인합니다.
+스크립트에 입력한 ProductID, ClientID, ClientSecret가 정확한지 확인합니다.  
 문제가 없으면 "y"를 입력하고 Enter를 누릅니다.
 
 ![](/assets/avs_script_edit_7.jpg)
@@ -84,11 +84,8 @@ Alexa wake word 사용에 대해 "y"를 입력하고 Enter를 누릅니다.
 
 ![](/assets/avs_script_edit_10.jpg)
 
-설치를 시작합니다. 약 15~20분정도 소요됩니다.
+설치를 시작합니다. 약 15~20분정도 소요됩니다.  
 설치가 완료 되면 아래와 같은 화면이 나타납니다.
 
 ![](/assets/avs_script_edit_11.jpg)
-
-
-
 
