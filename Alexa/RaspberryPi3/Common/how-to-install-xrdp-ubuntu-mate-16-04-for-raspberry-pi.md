@@ -8,9 +8,7 @@ $ sudo apt-get upgrade
 $ sudo apt-get install xrdp
 ```
 
-
-
-2. 연결하기
+1. Windows Remote Desktop Connection을 이용하여 Raspberry Pi 3에 연결하기
 
 a\) 윈도우 search에서 "remote desktop connection"를 입력합니다.![](/assets/pc_xrdp_step_1.jpg)
 
