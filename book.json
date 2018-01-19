@@ -34,7 +34,7 @@
         "pageNumbers": false,
         "fontSize": 12,
         "paperSize": "a4"
-    }
+    },
     "structure": {
         "readme": "INTRO.md"
     }
