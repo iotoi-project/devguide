@@ -17,6 +17,11 @@ $ mkdir workspace
 $ cd workspace
 ```
 
+AVS는 Oracle JDK 1.8 버전을 사용합니다.
+
+Oracle JDK 1.8 설치하기
+
+
 AVS sample app 받기
 
 ```
