@@ -1,7 +1,3 @@
-
-
-
-
 Ubuntu 16.04에 chrome brower를 설치합니다. System &gt; Administrator &gt; Software Boutique를 실행합니다.
 
 ![](/assets/avs_setup_step_1.jpg)
@@ -16,7 +12,7 @@ Chrome 설치가 완료되면 "Lanuch"를 클릭합니다.
 
 Oracle JDK 1.8을 다운받기 위해 아래 사이트에 접속 합니다.
 
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+[http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 Accept License Agreement를 클릭하고, Linux ARM 32 Hard Float ABI용 jdk를 다운받습니다.
 
@@ -51,4 +47,25 @@ $ java -version
 ```
 
 빨간색 박스와 같이 출력되면 정상적으로 설정된 것입니다.![](/assets/avs_setup_step_7.jpg)
+
+JAVA\_HOME 설정하기
+
+```
+$ vi ~/.bashrc
+```
+
+제일 하단으로 내려가서 다음 내용을 추가합니다.
+
+```
+JAVA_HOME=/opt/jdk1.8.0_161
+export JAVA_HOME
+PATH=$PATH:$JAVA_HOME
+export PATH
+```
+
+![](/assets/avs_setup_step_8.jpg)
+
+
+
+
 
