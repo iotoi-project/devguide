@@ -8,26 +8,26 @@ $ sudo apt-get upgrade
 $ sudo apt-get install ssh
 ```
 
-1. ssh 서버를 상시로 사용하기 위해 systemctl enable '서비스 이름' 명령을 사용합니다.
+2. ssh 서버를 상시로 사용하기 위해 systemctl enable '서비스 이름' 명령을 사용합니다.
 
 ```
 $ sudo systemctl enable ssh
 ```
 
-1. ssh 서버를 시작합니다.
+3. ssh 서버를 시작합니다.
 
 ```
 $ sudo systemctl start ssh
 $ sudo systemctl status ssh
 ```
 
-1. Raspberry Pi IP 확인하기
+4. IP address 확인하기
 
 ```
 $ ifconfig
 ```
 
-1. SSH Terminal을 이용하여 Raspberry Pi 3에 접속합니다.
+5. SSH Terminal을 이용하여 Raspberry Pi 3에 접속합니다.
 
 a\) MAC or Linux에서 ssh로 접속하는 방법
 
