@@ -1,4 +1,4 @@
-# Introduction
+# IoToI Project
 
 Developer Guide provides all visitors with HW and SW information regarding codes from the IoToI opensource site   
 
