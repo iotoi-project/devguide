@@ -19,8 +19,8 @@ $ cd workspace
 인스톨 스크립트 업데이트
 
 ```
+$ $ git clone https://github.com/alexa/alexa-avs-sample-app.git
 $ cd alexa-avs-sample-app
-$ mv samples/javaclient/install-java8.sh samples/javaclient/install-java8.sh-
 $ nano automated_install.sh
 ```
 
