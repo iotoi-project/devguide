@@ -25,12 +25,14 @@ XMOS 보드를 Raspberry Pi에 연결합니다.
   ```
   ![](/assets/raspbian_audio_xmos_step_2.jpg)
 
-(3) Ctrl + O 를 눌러 수정 사항을 저장합니다. 파일 이름을 확인하고 Enter를 누릅니다.
+(3) Ctrl + o 를 눌러 수정 사항을 저장합니다. 파일 이름을 확인하고 Enter를 누릅니다.
   ![](/assets/raspbian_audio_xmos_step_3.jpg)
+  
+(4) Ctrl + x 를 눌러 nano에서 빠져나옵니다.
 
 2. Raspberry Pi를 재부팅합니다.
 ```
-$ sudo shutdown -r now
+$ sudo shutdown -r
 ```
 
 3. Audio 출력 설정을 확인합니다.
@@ -39,7 +41,7 @@ $ sudo shutdown -r now
 $ aplay -l
 ```
 
-![](/assets/raspbian_audio_step_1.jpg)
+![](/assets/raspbian_audio_xmos_step_4.jpg)
 
 1. Audio 입력 설정을 확인합니다.
 
@@ -47,7 +49,7 @@ $ aplay -l
 $ arecord -l
 ```
 
-![](/assets/raspbian_audio_step_2.jpg)
+![](/assets/raspbian_audio_xmos_step_5.jpg)
 
 Audio 입력 및 출력을 XMOS board로 변경합니다.
 
@@ -84,7 +86,7 @@ pcm.speaker {
 재부팅합니다.
 
 ```
-$ sudo shutdown -r now
+$ sudo shutdown -r
 ```
 
 부팅이 완료되면 설정이 정상적으로 되었는지 확인합니다.
