@@ -1,22 +1,13 @@
-# Alexa for Raspbian\(NOOBS\ stretch)
+# Alexa for Raspbian\(NOOBS stretch\)
 
 ---
 
 이 페이지는 Amazon에서 개발한 Alexa Voice Service를 INS\_VOICE\(가칭\)를 이용하여 사용하는 방법을 기술합니다.
 
-라즈비안을 이용하기 위해서는 아래 가이드를 참고하세요.
+라즈비안을 이용하기 위해서는 아래 가이드를 참고하세요.  
 [Raspberry Pi Software Guide](https://www.raspberrypi.org/learning/software-guide/)
 
-디폴트 오디오 OFF
-```
-$vi /boot/config.txt
-```
-
-dtparam=audio 부분을 주석처리
-```
-# Enable audio (loads snd_bcm2835)
-#dtparam=audio=on
-```
+[Audio 환경 설정 및 테스트](/../Common/configure-and-test-the-audio.md)를 진행합니다.
 
 작업 디렉토리 생성
 
@@ -86,7 +77,4 @@ Alexa wake word 사용에 대해 "y"를 입력하고 Enter를 누릅니다.
 설치가 완료 되면 아래와 같은 화면이 나타납니다.
 
 ![](/assets/avs_script_edit_11.jpg)
-
-
-
 
