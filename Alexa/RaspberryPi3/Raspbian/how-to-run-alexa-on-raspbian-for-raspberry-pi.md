@@ -20,7 +20,7 @@ cd ~/workspace/alexa-avs-sample-app/samples/companionService && npm start
 
 ![](/assets/raspbian_alexa_step_1.jpg)
 
-1. 터미널 2를 실행합니다.
+2. 터미널 2를 실행합니다.
 
 ```
 cd ~/workspace/alexa-avs-sample-app/samples/javaclient && mvn exec:exec
@@ -28,35 +28,35 @@ cd ~/workspace/alexa-avs-sample-app/samples/javaclient && mvn exec:exec
 
 ![](/assets/raspbian_alexa_step_2.jpg)
 
-1. 인증을 위해 디폴트 브라우져를 사용할지 물어본다. "Yes"를 클릭한다.
+3. 인증을 위해 디폴트 브라우져를 사용할지 물어본다. "Yes"를 클릭한다.
 
 ![](/assets/raspbian_alexa_step_3.jpg)
 
-1. "ADVANCED"를 클릭합니다.
+4. "ADVANCED"를 클릭합니다.
 
 ![](/assets/raspbian_alexa_step_4.jpg)
 
-1. "Proceed to localhost \(unsafe\)"를 클릭합니다.
+5. "Proceed to localhost \(unsafe\)"를 클릭합니다.
 
 ![](/assets/raspbian_alexa_step_5.jpg)
 
-1. Amazon ID 및 Password를 입력하고 Sign in 합니다.
+6. Amazon ID 및 Password를 입력하고 Sign in 합니다.
 
 ![](/assets/raspbian_alexa_step_6.jpg)
 
-1. 정상적으로 인증 토근을 받으면 아래와 같은 화면이 나타납니다.
+7. 정상적으로 인증 토근을 받으면 아래와 같은 화면이 나타납니다.
 
 ![](/assets/raspbian_alexa_step_7.jpg)
 
-1. 브라우져를 닫고, 아래 메시지창에서 "OK"를 클릭합니다.
+8. 브라우져를 닫고, 아래 메시지창에서 "OK"를 클릭합니다.
 
 ![](/assets/raspbian_alexa_step_8.jpg)
 
-1. 아래와 같은 화면이 나타나면 정상적으로 AVS sample app이 실행된 것입니다.
+9. 아래와 같은 화면이 나타나면 정상적으로 AVS sample app이 실행된 것입니다.
 
 ![](/assets/raspbian_alexa_step_9.jpg)
 
-1. 터미널 2를 실행합니다. Alexa wake word engine을 실행합니다.
+10. 터미널 2를 실행합니다. Alexa wake word engine을 실행합니다.
 
 ```
 $ cd ~/workspace/alexa-avs-sample-app/samples/wakeWordAgent/src && ./wakeWordAgent -e kitt_ai
