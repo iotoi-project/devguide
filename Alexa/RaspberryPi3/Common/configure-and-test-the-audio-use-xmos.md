@@ -9,7 +9,31 @@ XMOS 보드를 Raspberry Pi에 연결합니다.
 
 연결이 잘 되었는지 확인합니다.
 
-1. Audio 출력 설정을 확인합니다.
+1. Raspberry Pi Audio를 disable 합니다.
+
+(1) Raspberry Pi config 파일을 변경합니다.
+  ```
+  $ sudo nano /boot/config.txt
+  ```
+  ![](/assets/raspbian_audio_xmos_step_1.jpg)
+
+
+(2) bcm2835 audio를 disable 합니다.
+  ```
+  # Enable audio (loads snd_bcm2835)
+  #dtparam=audio=on
+  ```
+  ![](/assets/raspbian_audio_xmos_step_2.jpg)
+
+(3) Ctrl + O 를 눌러 수정 사항을 저장합니다. 파일 이름을 확인하고 Enter를 누릅니다.
+  ![](/assets/raspbian_audio_xmos_step_3.jpg)
+
+2. Raspberry Pi를 재부팅합니다.
+```
+$ sudo shutdown -r now
+```
+
+3. Audio 출력 설정을 확인합니다.
 
 ```
 $ aplay -l
