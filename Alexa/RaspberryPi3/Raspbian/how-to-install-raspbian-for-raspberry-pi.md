@@ -1,4 +1,4 @@
-# Alexa for Raspbian\(NOOBS\)
+# Alexa for Raspbian\(NOOBS\ stretch)
 
 ---
 
