@@ -19,7 +19,7 @@ $ cd workspace
 인스톨 스크립트 업데이트
 
 ```
-$ $ git clone https://github.com/alexa/alexa-avs-sample-app.git
+$ git clone https://github.com/alexa/alexa-avs-sample-app.git
 $ cd alexa-avs-sample-app
 $ nano automated_install.sh
 ```
