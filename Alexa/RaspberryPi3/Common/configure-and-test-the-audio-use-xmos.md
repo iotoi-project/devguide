@@ -2,6 +2,9 @@
 
 ## Audio 환경 설정 및 테스트
 
+Audio Input: XMOS
+Audio Output: XMOS 3.5mm jack
+
 XMOS 보드를 Raspberry Pi에 연결합니다.
 
 연결이 잘 되었는지 확인합니다.
