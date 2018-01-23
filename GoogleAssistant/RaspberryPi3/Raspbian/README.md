@@ -73,3 +73,35 @@ Step 5\) 생성된 코드를 복사합니다.
 
 Step 6\) 복사한 코드를 terminal에 복사합니다.![](/assets/rpi3_raspbian_google_assistant_step_2.jpg)
 
+디바이스 모델 등록
+
+```
+(env)$ googlesamples-assistant-devicetool register-model --manufacturer "Assistant SDK developer" --product-name "Assistant SDK light" --type LIGHT --model pi-model
+```
+
+```
+(env) $ googlesamples-assistant-devicetool list --model
+Device Model Id: roy-model
+        Project Id: lofty-ivy-192309
+        Device Type: action.devices.types.LIGHT
+No traits
+
+(env) $
+```
+
+Google Assistant 실행
+
+```
+(env) $ googlesamples-assistant-hotword --project_id lofty-ivy-192309 --device_model_id roy-modelDevice registered.
+ON_MUTED_CHANGED:
+  {'is_muted': False}
+ON_START_FINISHED
+
+ON_CONVERSATION_TURN_STARTED
+ON_END_OF_UTTERANCE
+ON_RECOGNIZING_SPEECH_FINISHED:
+
+```
+
+
+
