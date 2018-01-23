@@ -53,7 +53,7 @@ Google Assistant SDK sample을 다운받아 설치합니다.
 
 Step 1\) Please visit this URL to authorize this application 뒤에 나오는 URL을 복사하여 브라우져를 이용하여 접속합니다.
 
-
+![](/assets/rpi3_raspbian_google_assistant_step_1.jpg)
 
 Step 2\) 가지고 있는 google 계정을 입력하고 "NEXT"를 클릭합니다.
 
