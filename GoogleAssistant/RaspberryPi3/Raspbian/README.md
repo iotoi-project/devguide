@@ -76,7 +76,7 @@ Step 6\) 복사한 코드를 terminal에 복사합니다.![](/assets/rpi3_raspbi
 디바이스 모델 등록
 
 ```
-(env)$ googlesamples-assistant-devicetool register-model --manufacturer "Assistant SDK developer" --product-name "Assistant SDK light" --type LIGHT --model pi-model
+(env)$ googlesamples-assistant-devicetool register-model --manufacturer "Assistant SDK developer" --product-name "Assistant SDK light" --type LIGHT --model roy-model
 ```
 
 ```
@@ -100,7 +100,6 @@ ON_START_FINISHED
 ON_CONVERSATION_TURN_STARTED
 ON_END_OF_UTTERANCE
 ON_RECOGNIZING_SPEECH_FINISHED:
-
 ```
 
 
