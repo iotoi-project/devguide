@@ -34,6 +34,11 @@ $ nano .asoundrc
 다음과 같이 변경합니다.
 
 ```
+사용방법
+pcm "hw: <card number>, <device number>
+```
+
+```
 pcm.!default {
   type asym
   capture.pcm "mic"
@@ -50,7 +55,7 @@ pcm.mic {
 pcm.speaker {
   type plug
   slave {
-    pcm "hw:1,0"
+    pcm "hw:0,0"
   }
 }
 ```
