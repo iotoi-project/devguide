@@ -2,46 +2,23 @@
 
 ## Audio 환경 설정 및 테스트
 
-Audio Input: XMOS
-Audio Output: XMOS
+Audio Input: XMOS  
+Audio Output: USB Speaker
 
-XMOS 보드를 Raspberry Pi에 연결합니다.
+XMOS 보드를 Raspberry Pi에 연결합니다.  
+USB Speaker를 Raspberry Pi에 연결합니다.
 
 연결이 잘 되었는지 확인합니다.
 
-1. Raspberry Pi Audio를 disable 합니다.
+Raspberry Pi에 전원을 연결합니다.
 
-(1) Raspberry Pi config 파일을 변경합니다.
-  ```
-  $ sudo nano /boot/config.txt
-  ```
-  ![](/assets/raspbian_audio_xmos_step_1.jpg)
-
-
-(2) bcm2835 audio를 disable 합니다.
-  ```
-  # Enable audio (loads snd_bcm2835)
-  #dtparam=audio=on
-  ```
-  ![](/assets/raspbian_audio_xmos_step_2.jpg)
-
-(3) Ctrl + o 를 눌러 수정 사항을 저장합니다. 파일 이름을 확인하고 Enter를 누릅니다.
-  ![](/assets/raspbian_audio_xmos_step_3.jpg)
-  
-(4) Ctrl + x 를 눌러 nano에서 빠져나옵니다.
-
-2. Raspberry Pi를 재부팅합니다.
-```
-$ sudo shutdown -r
-```
-
-3. Audio 출력 설정을 확인합니다.
+Audio 출력 설정을 확인합니다.
 
 ```
 $ aplay -l
 ```
 
-![](/assets/raspbian_audio_xmos_step_4.jpg)
+![](/assets/raspbian_audio_step_5.jpg)
 
 1. Audio 입력 설정을 확인합니다.
 
@@ -49,7 +26,7 @@ $ aplay -l
 $ arecord -l
 ```
 
-![](/assets/raspbian_audio_xmos_step_5.jpg)
+![](/assets/raspbian_audio_step_6.jpg)
 
 Audio 입력 및 출력을 XMOS board로 변경합니다.
 
@@ -58,6 +35,11 @@ $ nano .asoundrc
 ```
 
 다음과 같이 변경합니다.
+
+```
+사용방법
+pcm "hw: <card number>, <device number>
+```
 
 ```
 pcm.!default {
@@ -76,12 +58,12 @@ pcm.mic {
 pcm.speaker {
   type plug
   slave {
-    pcm "hw:1,0"
+    pcm "hw:0,0"
   }
 }
 ```
 
-![](/assets/raspbian_audio_step_3.jpg)
+![](/assets/raspbian_audio_step_7.jpg)
 
 재부팅합니다.
 
@@ -104,7 +86,7 @@ $ speaker-test -t wav
 1. Audio 입력 테스트 \(5초 동안 음성을 저장합니다. 아래 커맨드를 입력하고 음성을 입력하세요. \)
 
 ```
-$ arecord --format=S16_LE --duration=5 --rate=16000 out.wav
+$ arecord --format=S16_LE --duration=5 out.wav
 Recording WAVE 'out.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
 ```
 
