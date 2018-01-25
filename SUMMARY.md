@@ -6,7 +6,7 @@
 * [2. Chip and Board SW Info](2-chip-and-board-sw-info.md)
 * [3. How to Develop](3-how-to-develop.md)
 * [3.1 Cortana Voice AI](3-1-cortana-voice-aimd.md)
-* 3.1.1 DragonBoard 410c
+* [3.1.1 DragonBoard 410c](311-dragonboard-410c.md)
 * [3.1.1.1 How to download Microsoft Official Version](3111-how-to-download-microsoft-official-version.md)
 * [3.1.1.2 How to build custom binary](3112-how-to-build-custom-binary.md)
 * 3.1.2 Raspberry Pi 3
