@@ -2,25 +2,29 @@
 
 ---
 
+#### Install chrome 
 
-Ubuntu 16.04에 chrome brower를 설치합니다. System &gt; Administrator &gt; Software Boutique를 실행합니다.
-
+##### 1. Chrome brower 검색
+- Ubuntu 16.04에 chrome brower를 설치합니다. 
+- System &gt; Administrator &gt; Software Boutique를 실행합니다.
 ![](/assets/avs_setup_step_1.jpg)
 
-Search 를 클릭합니다.![](/assets/avs_setup_step_2.jpg)
+- Search 를 클릭합니다.
+![](/assets/avs_setup_step_2.jpg)
+- Search Box에 chrome를 입력하고 Enter를 누릅니다. 
 
-Search Box에 chrome를 입력하고 Enter를 누릅니다. Chrome이 검색되면 "Install"을 클릭합니다.![](/assets/avs_setup_step_3.jpg)
+##### 2. Chrome brower 설치
+- Chrome이 검색되면 "Install"을 클릭합니다.
+![](/assets/avs_setup_step_3.jpg)
 
-Chrome 설치가 완료되면 "Lanuch"를 클릭합니다.
-
+##### 3. Chrome brower 실행
+- Chrome 설치가 완료되면 "Lanuch"를 클릭합니다.
 ![](/assets/avs_setup_step_4.jpg)
 
-Oracle JDK 1.8을 다운받기 위해 아래 사이트에 접속 합니다.
-
+- Oracle JDK 1.8을 다운받기 위해 아래 사이트에 접속 합니다.
 [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-Accept License Agreement를 클릭하고, Linux ARM 32 Hard Float ABI용 jdk를 다운받습니다.
-
+- Accept License Agreement를 클릭하고, Linux ARM 32 Hard Float ABI용 jdk를 다운받습니다.
 ![](/assets/avs_setup_step_5.jpg)
 
 터미널을 실행합니다. \(ssh로 원격에서 접속해서 작업을 진행해도 됩니다.\)
