@@ -11,23 +11,22 @@ git clone https://github.com/ms-iot/iot-adk-addonkit.git
 ```
 
 #### Github에서 iot-adk-addonkit 다운로드 받기
-  ##### [https://github.com/ms-iot/iot-adk-addonkit](https://github.com/ms-iot/iot-adk-addonkit)
+  * ##### [https://github.com/ms-iot/iot-adk-addonkit](https://github.com/ms-iot/iot-adk-addonkit)
 
 #### Qualcomm Developer network에서 BSP 추가 부분 다운로드 받기 \(계정 필요\)
-  ##### [Windows 10 IoT Core Board Support Package](https://developer.qualcomm.com/download/db410c/windows-10-iot-core-bsp.zip)
+  * ##### [Windows 10 IoT Core Board Support Package](https://developer.qualcomm.com/download/db410c/windows-10-iot-core-bsp.zip)
 
 #### iot-adk-addonkit에 Qualcomm BSP 추가하기
-  ##### iot-adk-addonkit에 "QualcommBSPCabs" 폴더를 생성합니다.
+  * ##### iot-adk-addonkit에 "QualcommBSPCabs" 폴더를 생성합니다.
   ![](/assets/dragonBoard_bsp_build_step_1.png)
 
-  * ##### 다운받은 Qualcomm BSP 파일을 압축해제 합니다.
-  * ##### 윈도우 탐색기에서 검색하기를 이용하여, BSP에 포함된 모든 cab 파일을 찾습니다.
-  * ##### 검색된 모든 cab 파일을 "QualcommBSPCabs"에 복사합니다.
+  * 다운받은 Qualcomm BSP 파일을 압축해제 합니다.
+  * 윈도우 탐색기에서 검색하기를 이용하여, BSP에 포함된 모든 cab 파일을 찾습니다.
+  * 검색된 모든 cab 파일을 "QualcommBSPCabs"에 복사합니다.
   
-* ## iot-adk-addonkit을 이용하여 이미지 빌드하기
+#### iot-adk-addonkit을 이용하여 이미지 빌드하기
 
-  * ### Tool\setOEM.cmd 파일을 수정합니다.
-
+  * #### Tool\setOEM.cmd 파일을 수정합니다.
     ![](/assets/dragonBoard_bsp_build_step_2.png)![](/assets/dragonBoard_bsp_build_step_3.png)
 
   * ### IoTCoreShell.cmd를 administrator로 실행합니다.
