@@ -9,6 +9,7 @@
 * 3.1.1 DragonBoard 410c
 * [3.1.1.1 How to download Microsoft Official Version](3111-how-to-download-microsoft-official-version.md)
 * [3.1.1.2 How to build custom binary](3112-how-to-build-custom-binary.md)
+* 3.1.2 Raspberry Pi 3
 * [3.2 Alexa Voice AI](32-alexa-voice-ai.md)
 * 3.2.1 DragonBoard 410c
 * [3.2.2 Raspberry Pi 3](322-raspberry-pi-3.md)
@@ -17,5 +18,5 @@
 * [3.3 Google Assistant Voice AI](3-3-google-assistant-aimd.md)
 * 3.3.1 DragonBoard 410c
 * 3.3.2 Raspberry Pi 3
-* 3.3.2.1 Raspbian
+* 3.1.2 Raspberry Pi 3
 
