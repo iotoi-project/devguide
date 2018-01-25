@@ -12,7 +12,7 @@ git clone https://github.com/ms-iot/iot-adk-addonkit.git
 ##### 2. Github site에서 iot-adk-addonkit 다운로드 받기
 - ##### [https://github.com/ms-iot/iot-adk-addonkit](https://github.com/ms-iot/iot-adk-addonkit)
 
-#### Qualcomm Developer network에서 BSP 추가 부분 다운로드 받기 \(계정 필요\)
+#### Qualcomm Developer network에서 Qualcomm BSP 다운로드 받기 \(계정 필요\)
 - ##### [Windows 10 IoT Core Board Support Package](https://developer.qualcomm.com/download/db410c/windows-10-iot-core-bsp.zip)
 
 #### iot-adk-addonkit에 Qualcomm BSP 추가하기
