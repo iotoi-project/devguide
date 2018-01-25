@@ -7,7 +7,7 @@
 [3. How to Develop](3-how-to-develop.md)
     [3.1 Cortana Voice AI](3-1-cortana-voice-aimd.md)
         3.1.1 DragonBoard 410c
-        [3.1.1.1 How to download Microsoft Official Version](./3111-how-to-download-microsoft-official-version.md)
+        [3.1.1.1 How to download Microsoft Official Version](3111-how-to-download-microsoft-official-version.md)
         3.1.2 Raspberry Pi 3
     [3.2 Alexa Voice AI](32-alexa-voice-ai.md)
         3.2.1 DragonBoard 410c
