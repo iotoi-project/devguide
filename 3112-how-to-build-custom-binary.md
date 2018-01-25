@@ -10,10 +10,10 @@ git clone https://github.com/ms-iot/iot-adk-addonkit.git
 ```
 
 ##### 2. Github site에서 iot-adk-addonkit 다운로드 받기
-##### [https://github.com/ms-iot/iot-adk-addonkit](https://github.com/ms-iot/iot-adk-addonkit)
+- ##### [https://github.com/ms-iot/iot-adk-addonkit](https://github.com/ms-iot/iot-adk-addonkit)
 
 #### Qualcomm Developer network에서 BSP 추가 부분 다운로드 받기 \(계정 필요\)
-##### [Windows 10 IoT Core Board Support Package](https://developer.qualcomm.com/download/db410c/windows-10-iot-core-bsp.zip)
+- ##### [Windows 10 IoT Core Board Support Package](https://developer.qualcomm.com/download/db410c/windows-10-iot-core-bsp.zip)
 
 #### iot-adk-addonkit에 Qualcomm BSP 추가하기
 
@@ -72,7 +72,7 @@ buildimage SBC test
 ![](/assets/dragonBoard_bsp_build_step_10.png)
 
 ##### 3. 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.  
-##### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
+- ##### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
 
 -----
 ## Reference
