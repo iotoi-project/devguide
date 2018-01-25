@@ -6,7 +6,7 @@
 
 ##### 1. Download Dragon Board 410c MSFT Official Binary
 
-  [Windows 10 IoT Core for DragonBoard 410c](https://www.microsoft.com/en-us/download/details.aspx?id=55027)
+  - ##### [Windows 10 IoT Core for DragonBoard 410c](https://www.microsoft.com/en-us/download/details.aspx?id=55027)
 
 ##### 2. 프로그램 실행
   - 다운로드 받은 Disk Image File을 더블 클릭합니다.  
