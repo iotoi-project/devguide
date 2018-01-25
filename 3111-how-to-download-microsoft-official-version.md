@@ -55,7 +55,7 @@
 
 * #### Program 선택
 
-  Program 버튼을 클릭합니다.
+  Program 버튼을 클릭합니다.  
   ![](/assets/dragonBoard_release_step_9.png)
 
 
