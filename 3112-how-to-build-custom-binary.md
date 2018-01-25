@@ -2,15 +2,14 @@
 
 이 페이지는 Dragon Board 410c용 사용자 BSP 빌드 방법을 설명합니다.
 
-## Micosoft iot-adk-addonkit 다운로드
+#### Micosoft iot-adk-addonkit 다운로드
 
-#### Git clone으로 소스 받기
-
+##### 1. Git clone으로 소스 받기 or
 ```
 git clone https://github.com/ms-iot/iot-adk-addonkit.git
 ```
 
-#### Github에서 iot-adk-addonkit 다운로드 받기
+##### 2. Github site에서 iot-adk-addonkit 다운로드 받기
 ##### [https://github.com/ms-iot/iot-adk-addonkit](https://github.com/ms-iot/iot-adk-addonkit)
 
 #### Qualcomm Developer network에서 BSP 추가 부분 다운로드 받기 \(계정 필요\)
