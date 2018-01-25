@@ -72,7 +72,7 @@ buildimage SBC test
 윈도우 탐색기를 이용하여 아래 경로로 이동하면 생성된 Windows 10 IoT Core 이미지가 있습니다.
 ![](/assets/dragonBoard_bsp_build_step_10.png)
 
-##### 3. 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.
+##### 3. 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.  
 ##### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
 
 -----
