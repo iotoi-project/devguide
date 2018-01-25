@@ -17,24 +17,24 @@ Audio Input: XMOS
 Audio Output: Raspberry Pi 3.5mm jack
 ```
 
-##### 1. XMOS 보드를 Raspberry Pi에 연결합니다.
+##### 1. XMOS 보드를 Raspberry Pi에 연결
 - 연결이 잘 되었는지 확인합니다.
 
-##### 2. Audio 출력 설정을 확인합니다.
-- 
+##### 2. Audio 출력 설정 확인
+- 아래 명령을 이용하여 Audio output 정보를 확인합니다.
 ```
 $ aplay -l
 ```
 ![](/assets/raspbian_audio_step_1.jpg)
 
-##### 3. Audio 입력 설정을 확인합니다.
--
+##### 3. Audio 입력 설정 확인
+- 아래 명령을 이용하여 Audio input 정보를 확인합니다.
 ```
 $ arecord -l
 ```
 ![](/assets/raspbian_audio_step_2.jpg)
 
-##### 4. Audio 입력 및 출력을 XMOS board로 변경합니다.
+##### 4. Audio 입력을 XMOS board로 변경
 - 다음과 같이 변경합니다.  
   ```
   $ nano .asoundrc
@@ -64,7 +64,7 @@ $ arecord -l
   ```
 ![](/assets/raspbian_audio_step_3.jpg)
 
-##### 5. 재부팅합니다.
+##### 5. 재부팅
 - 부팅이 완료되면 설정이 정상적으로 오디오가 동작되는지 확인합니다.
   ```
   $ sudo shutdown -r
