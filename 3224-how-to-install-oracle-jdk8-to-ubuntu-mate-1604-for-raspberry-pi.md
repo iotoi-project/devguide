@@ -1,3 +1,8 @@
+# Install Oracle JDK 8 for Ubuntu 16.04
+
+---
+
+
 Ubuntu 16.04에 chrome brower를 설치합니다. System &gt; Administrator &gt; Software Boutique를 실행합니다.
 
 ![](/assets/avs_setup_step_1.jpg)
