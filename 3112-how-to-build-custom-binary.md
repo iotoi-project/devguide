@@ -11,10 +11,10 @@ git clone https://github.com/ms-iot/iot-adk-addonkit.git
 ```
 
 #### Github에서 iot-adk-addonkit 다운로드 받기
-  [https://github.com/ms-iot/iot-adk-addonkit](https://github.com/ms-iot/iot-adk-addonkit)
+##### [https://github.com/ms-iot/iot-adk-addonkit](https://github.com/ms-iot/iot-adk-addonkit)
 
 #### Qualcomm Developer network에서 BSP 추가 부분 다운로드 받기 \(계정 필요\)
-  [Windows 10 IoT Core Board Support Package](https://developer.qualcomm.com/download/db410c/windows-10-iot-core-bsp.zip)
+##### [Windows 10 IoT Core Board Support Package](https://developer.qualcomm.com/download/db410c/windows-10-iot-core-bsp.zip)
 
 #### iot-adk-addonkit에 Qualcomm BSP 추가하기
 
@@ -36,7 +36,7 @@ git clone https://github.com/ms-iot/iot-adk-addonkit.git
 - 만약 빨간색 부분의 정보가 일치하지 않거나 정상적인 버전이 나타나지 않으면 설치환경을 확인하세요.
 ![](/assets/dragonBoard_bsp_build_step_5.png)
 
-- test certificates를 설치합니다. 이는 최초 한번만 실행하면 됩니다.
+- test certificates를 설치합니다. \(이 명령은 최초 한번만 실행하면 됩니다.\)
 ```
 InstallOEMCerts
 ```
@@ -72,8 +72,8 @@ buildimage SBC test
 윈도우 탐색기를 이용하여 아래 경로로 이동하면 생성된 Windows 10 IoT Core 이미지가 있습니다.
 ![](/assets/dragonBoard_bsp_build_step_10.png)
 
-- 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.
-  [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
+##### 3. 생성된 이미지를 DragonBoard에 다운로드 하는 방법은 아래 링크를 참고하세요.
+##### [How to download bsp to DragonBoard 410c](../how-to-download-binary.md)
 
 -----
 ## Reference
