@@ -19,4 +19,6 @@
 * 3.3.1 DragonBoard 410c
 * 3.3.2 Raspberry Pi 3
 * 3.1.2 Raspberry Pi 3
+* [3.1.2.1 How to download Micsoft Official Version](3121-how-to-download-micsoft-official-version.md)
+* [3.1.2.2 How to build custom binary](3122-how-to-build-custom-binary.md)
 
