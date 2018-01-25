@@ -17,8 +17,10 @@
 * [3.2.2 Raspberry Pi 3](322-raspberry-pi-3.md)
 * [3.2.2.1 How to install AVS to Raspbian](3221-how-to-install-avs-to-raspbian.md)
 * [3.2.2.2 How to run AVS on Raspbian](3222-how-to-run-avs-on-raspbian.md)
-* 3.2.2.3 How to install AVS to Ubuntu MATE 16.04
-* 3.2.2.4 How to run AVS on Ubuntu MATE 16.04
+* 3.2.2.3 How to install Ubuntu MATE 16.04 for Rspberry Pi
+* 3.2.2.4 How to install oracle JDK8 to Ubuntu MATE 16.04 for Raspberry Pi
+* 3.2.2.5 How to install AVS to Ubuntu MATE 16.04 for Raspberry Pi
+* 3.2.2.6 How to run AVS to Ubuntu MATE 16.04 for Raspberry Pi
 * [3.3 Google Assistant Voice AI](3-3-google-assistant-aimd.md)
 * 3.3.1 DragonBoard 410c
 * 3.3.2 Raspberry Pi 3
