@@ -50,9 +50,11 @@
   ![](/assets/dragonBoard_release_step_7.png)
 
 * #### 바이너리 선택 \(flash.ffu\)
+
   ![](/assets/dragonBoard_release_step_8.png)
 
 * #### Program 선택
+
   Program 버튼을 클릭합니다.
   ![](/assets/dragonBoard_release_step_9.png)
 
