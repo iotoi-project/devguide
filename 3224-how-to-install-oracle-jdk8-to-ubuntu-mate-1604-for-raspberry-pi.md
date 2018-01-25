@@ -60,7 +60,6 @@ $ java -version
 ![](/assets/avs_setup_step_7.jpg)
 
 - JAVA\_HOME 설정하기
-
 ```
 $ vi ~/.bashrc
 ```
