@@ -1,4 +1,4 @@
-# Alexa for Ubuntu 16.04
+# Install Alexa for Ubuntu 16.04
 
 ---
 
@@ -17,7 +17,7 @@ $ mkdir workspace
 $ cd workspace
 ```
 
-AVS는 Oracle JDK 1.8 버전을 사용합니다.
+
 
 Oracle JDK 1.8 설치하기
 

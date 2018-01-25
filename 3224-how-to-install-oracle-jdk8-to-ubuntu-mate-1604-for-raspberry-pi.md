@@ -22,6 +22,7 @@
 ![](/assets/avs_setup_step_4.jpg)
 
 #### Install oracle JDK 8
+AVS는 Oracle JDK 1.8 버전을 사용합니다.
 
 ##### 1. Download JDK 8
 - Oracle JDK 1.8을 다운받기 위해 아래 사이트에 접속 합니다.
