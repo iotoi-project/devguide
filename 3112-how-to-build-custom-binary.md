@@ -19,10 +19,10 @@ git clone https://github.com/ms-iot/iot-adk-addonkit.git
 #### iot-adk-addonkit에 Qualcomm BSP 추가하기
 
 ##### 1. iot-adk-addonkit에 "QualcommBSPCabs" 폴더를 생성합니다.
-![](/assets/dragonBoard_bsp_build_step_1.png)
-- 다운받은 Qualcomm BSP 파일을 압축해제 합니다.
-- 윈도우 탐색기에서 검색하기를 이용하여, BSP에 포함된 모든 cab 파일을 찾습니다.
-- 검색된 모든 cab 파일을 "QualcommBSPCabs"에 복사합니다.
+  ![](/assets/dragonBoard_bsp_build_step_1.png)
+  - 다운받은 Qualcomm BSP 파일을 압축해제 합니다.
+  - 윈도우 탐색기에서 검색하기를 이용하여, BSP에 포함된 모든 cab 파일을 찾습니다.
+  - 검색된 모든 cab 파일을 "QualcommBSPCabs"에 복사합니다.
 
 
 ##### 2. iot-adk-addonkit을 이용하여 이미지 빌드하기
