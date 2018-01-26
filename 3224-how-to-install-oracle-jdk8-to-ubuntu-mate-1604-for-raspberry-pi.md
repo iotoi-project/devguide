@@ -9,7 +9,7 @@
 - System &gt; Administrator &gt; Software Boutique를 실행합니다.
 ![](/assets/avs_setup_step_1.jpg)
 
-- Search 를 클릭합니다.
+- Search 아이콘을 클릭합니다.
 ![](/assets/avs_setup_step_2.jpg)
 - Search Box에 chrome를 입력하고 Enter를 누릅니다. 
 
