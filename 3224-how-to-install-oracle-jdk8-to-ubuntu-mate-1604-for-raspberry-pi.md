@@ -73,3 +73,9 @@ PATH=$PATH:$JAVA_HOME
 export PATH
 ```
 ![](/assets/avs_setup_step_8.jpg)
+
+- 수정한 bashrc를 현재 터미널에 적용합니다.
+```
+source ~/.bashrc
+```
+
