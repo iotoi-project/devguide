@@ -11,9 +11,9 @@
 
 - Search 아이콘을 클릭합니다.
 ![](/assets/avs_setup_step_2.jpg)
-- Search Box에 chrome를 입력하고 Enter를 누릅니다. 
 
 ##### 2. Chrome brower 설치
+- Search Box에 chrome를 입력하고 Enter를 누릅니다. 
 - Chrome이 검색되면 "Install"을 클릭합니다.
 ![](/assets/avs_setup_step_3.jpg)
 
