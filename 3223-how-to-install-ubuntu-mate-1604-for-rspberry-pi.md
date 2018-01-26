@@ -28,12 +28,14 @@
 - Select drive를 클릭하여, Micro SD Card의 경로를 설정합니다.
 - Flash 를 클릭합니다.
 - 이미지 flash가 모두 끝나면, Micro SD Card를 PC에서 분리하여 준비한 Raspberry Pi 3에 창작합니다.
-- 준비한 모니터와 키보드, 마우스를 Raspberry Pi 3에 연결합니다.
+- 준비한 모니터와 키보드, 마우스, 인터넷을 Raspberry Pi 3에 연결합니다.
 - Micro USB power supply를 Raspberry Pi 3에 연결합니다.
-- Ubuntu Mate 16.04를 설치합니다. \(ID: roy, Computer Name: RPi3\)
-- SSH 를 설치합니다.
-- 필요한 경우, XRDP를 설치합니다.
-- Raspberry Pi에 접속합니다.
+- Ubuntu Mate 16.04를 설치합니다. 
+    - 예제는 ID: roy, Computer Name: RPi3 로 되어 있습니다.
+- 설치가 완료되면 아래 명령을 실행합니다.
+```
+sudo apt-get update && sudo apt-get upgrade
+```
 - 설치된 Java version을 확인합니다.
 ```
 $ java -version
