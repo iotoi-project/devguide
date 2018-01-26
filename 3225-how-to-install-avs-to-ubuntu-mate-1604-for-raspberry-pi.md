@@ -25,10 +25,9 @@ $ git clone https://github.com/alexa/alexa-avs-sample-app.git
 ```
 
 ##### 3. 인스톨 스크립트 업데이트
-- 이미지 수동으로 oracle JDK 8를 설치했으므로, AVS sample app에서 관련 script를 실행하지 않도록 변경합니다.
+- AVS를 install 합니다.
 ```
 $ cd alexa-avs-sample-app
-$ mv samples/javaclient/install-java8.sh samples/javaclient/install-java8.sh-
 $ nano automated_install.sh
 ```
 

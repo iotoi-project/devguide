@@ -16,14 +16,14 @@
 ```
 cd ~/workspace/alexa-avs-sample-app/samples/companionService && npm start
 ```
-![](/assets/raspbian_alexa_step_1.jpg)
+![](/assets/ubuntu_alexa_step_1.png)
 
 ##### 2. 터미널 2 실행
 - 아래 명령을 입력합니다.
 ```
 cd ~/workspace/alexa-avs-sample-app/samples/javaclient && mvn exec:exec
 ```
-![](/assets/raspbian_alexa_step_2.jpg)
+![](/assets/ubuntu_alexa_step_2.png)
 
 ##### 3. 사용자 인증
 - 인증을 위해 디폴트 브라우져를 사용할지 물어본다. "Yes"를 클릭한다.
