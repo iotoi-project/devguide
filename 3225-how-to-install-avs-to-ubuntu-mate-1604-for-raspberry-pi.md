@@ -63,7 +63,7 @@ chmod +x automated_install.sh
 - 문제가 없으면 "y"를 입력하고 Enter를 누릅니다.
 ![](/assets/avs_script_edit_7.jpg)
 
-- 사용할 위치에서 "1" US를 선택합니다.
+- 사용할 언어에서 "1" US를 선택합니다.
 ![](/assets/avs_script_edit_8.jpg)
 
 - Audio out은 "1" 을 선택합니다.
