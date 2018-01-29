@@ -25,4 +25,5 @@
 * 3.3.1 DragonBoard 410c
 * [3.3.2 Raspberry Pi 3](332-raspberry-pi-3.md)
 * [3.3.2.1 Raspbian](3321-raspbian.md)
+* [3.3.2.2 Ubuntu MATE](3322-ubuntu-mate.md)
 

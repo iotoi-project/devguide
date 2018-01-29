@@ -1,8 +1,8 @@
-# Alexa for Ubuntu 16.04
+# How to install Ubuntu MATE 16.04 for Raspberry Pi
 
 ---
 
-이 페이지는 Amazon에서 개발한 Alexa Voice Service를 INS\_VOICE\(가칭\)를 이용하여 사용하는 방법을 기술합니다.
+이 페이지는 Raspberry Pi에 Ubuntu MATE 16.04 설치 방법에 대해 기술합니다.
 
 #### Ubuntu MATE 16.04 for Raspberry 
 [Download Ubutu Mate 16.04 for Raspberry Pi 3](https://ubuntu-mate.org/download/)
