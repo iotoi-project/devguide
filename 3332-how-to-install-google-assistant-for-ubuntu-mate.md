@@ -10,10 +10,8 @@ How to install Ubuntu MATE 16.04 for Raspberry Pi
 
 #### Google Assistant 설치
 
-##### Python 가상환경 설정
-
-##### 1. Python 가상 환경을 설치합니다.
-
+##### 1. Python 가상환경 설정
+- Python 가상 환경을 설치합니다.
 ```
 $ sudo apt-get update
 $ sudo apt-get install python3-dev python3-venv # Use python3.4-venv if the package cannot be found.
