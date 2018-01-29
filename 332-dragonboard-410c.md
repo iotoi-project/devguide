@@ -1,7 +1,14 @@
-* ### This method requires the following hardware:
+## DragonBoard 410c
+---
+The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
 
-* ##### DragonBoard 410c with power supply
-* ##### Host machine \(Linux, Mac OS X, or Windows\)
-* ##### MicroSD card with 4GB or more of storage
-* ##### USB Mouse and/or keyboard
-* ##### HDMI Monitor with full size HDMI cable
+![](https://www.96boards.org/product/ce/dragonboard410c/images/DragonBoard-UpdatedImages-front.png)
+![](https://www.96boards.org/product/ce/dragonboard410c/images/DragonBoard-UpdatedImages-back.png)
+
+-----
+## Reference
+
+* #### [96board.org](https://www.96boards.org/product/dragonboard410c)
+
+
+
