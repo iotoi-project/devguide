@@ -13,7 +13,7 @@
       * [3.1.2.1 How to download Micsoft Official Version](3121-how-to-download-micsoft-official-version.md)
       * [3.1.2.2 How to build custom binary](3122-how-to-build-custom-binary.md)
   * [3.2 Alexa Voice AI](32-alexa-voice-ai.md)
-    * 3.2.1 DragonBoard 410c
+    * [3.2.1 DragonBoard 410c](321-dragonboard-410c.md)
     * [3.2.2 Raspberry Pi 3](322-raspberry-pi-3.md)
       * [3.2.2.1 How to install AVS to Raspbian](3221-how-to-install-avs-to-raspbian.md)
       * [3.2.2.2 How to run AVS on Raspbian](3222-how-to-run-avs-on-raspbian.md)
