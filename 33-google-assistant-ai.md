@@ -1,4 +1,4 @@
-# Google Assistant
+# Google Assistant of Google
 ---
 
 ### 보드 및 OS
