@@ -188,7 +188,7 @@ $ source env/bin/activate
 
 * 디바이스 모델을 등록합니다. 아래는 예제입니다.
   ```
-  (env)$ googlesamples-assistant-devicetool register-model --manufacturer "Assistant SDK developer" --product-name "Assistant SDK light" --type LIGHT --model roy-model
+  (env) $ googlesamples-assistant-devicetool register-model --manufacturer "Assistant SDK developer" --product-name "Assistant SDK light" --type LIGHT --model roy-model
   (env) $ googlesamples-assistant-devicetool list --model 
   Device Model Id: roy-model 
   Project Id: lofty-ivy-192309 
