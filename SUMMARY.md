@@ -24,6 +24,6 @@
 * [3.3 Google Assistant Voice AI](3-3-google-assistant-aimd.md)
 * 3.3.1 DragonBoard 410c
 * [3.3.2 Raspberry Pi 3](332-raspberry-pi-3.md)
-* [3.3.2.1 Raspbian](3321-raspbian.md)
-* [3.3.2.2 Ubuntu MATE](3322-ubuntu-mate.md)
+* [3.3.2.1 How to install Google Assistant for Raspbian](3321-how-to-install-google-assistant-for-raspbian.md)
+* [3.3.2.2 How to install Google Assistant for Ubuntu MATE](3322-how-to-install-google-assistant-for-ubuntu-mate.md)
 
