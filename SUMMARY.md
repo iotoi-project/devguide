@@ -13,19 +13,19 @@
             * [3.1.2.1 How to download Micsoft Official Version](3121-how-to-download-micsoft-official-version.md)
             * [3.1.2.2 How to build custom binary](3122-how-to-build-custom-binary.md)
     * [3.2 Alexa Voice AI](32-alexa-voice-ai.md)
-    * 3.2.1 DragonBoard 410c
-    * [3.2.2 Raspberry Pi 3](322-raspberry-pi-3.md)
-    * [3.2.2.1 How to install AVS to Raspbian](3221-how-to-install-avs-to-raspbian.md)
-    * [3.2.2.2 How to run AVS on Raspbian](3222-how-to-run-avs-on-raspbian.md)
-    * [3.2.2.3 How to install Ubuntu MATE 16.04 for Rspberry Pi](3223-how-to-install-ubuntu-mate-1604-for-rspberry-pi.md)
-    * [3.2.2.4 How to install oracle JDK8 to Ubuntu MATE 16.04 for Raspberry Pi](3224-how-to-install-oracle-jdk8-to-ubuntu-mate-1604-for-raspberry-pi.md)
-    * [3.2.2.5 How to install AVS to Ubuntu MATE 16.04 for Raspberry Pi](3225-how-to-install-avs-to-ubuntu-mate-1604-for-raspberry-pi.md)
-    * [3.2.2.6 How to run AVS to Ubuntu MATE 16.04 for Raspberry Pi](3226-how-to-run-avs-to-ubuntu-mate-1604-for-raspberry-pi.md)
+        * 3.2.1 DragonBoard 410c
+        * [3.2.2 Raspberry Pi 3](322-raspberry-pi-3.md)
+            * [3.2.2.1 How to install AVS to Raspbian](3221-how-to-install-avs-to-raspbian.md)
+            * [3.2.2.2 How to run AVS on Raspbian](3222-how-to-run-avs-on-raspbian.md)
+            * [3.2.2.3 How to install Ubuntu MATE 16.04 for Rspberry Pi](3223-how-to-install-ubuntu-mate-1604-for-rspberry-pi.md)
+            * [3.2.2.4 How to install oracle JDK8 to Ubuntu MATE 16.04 for Raspberry Pi](3224-how-to-install-oracle-jdk8-to-ubuntu-mate-1604-for-raspberry-pi.md)
+            * [3.2.2.5 How to install AVS to Ubuntu MATE 16.04 for Raspberry Pi](3225-how-to-install-avs-to-ubuntu-mate-1604-for-raspberry-pi.md)
+            * [3.2.2.6 How to run AVS to Ubuntu MATE 16.04 for Raspberry Pi](3226-how-to-run-avs-to-ubuntu-mate-1604-for-raspberry-pi.md)
     * [3.3 Google Assistant Voice AI](3-3-google-assistant-aimd.md)
-    * 3.3.1 DragonBoard 410c
-    * [3.3.2 Raspberry Pi 3](332-raspberry-pi-3.md)
-    * [3.3.2.1 How to install Google Assistant for Raspbian](3321-how-to-install-google-assistant-for-raspbian.md)
-    * [3.3.2.2 How to install Google Assistant for Ubuntu MATE](3322-how-to-install-google-assistant-for-ubuntu-mate.md)
+        * 3.3.1 DragonBoard 410c
+        * [3.3.2 Raspberry Pi 3](332-raspberry-pi-3.md)
+            * [3.3.2.1 How to install Google Assistant for Raspbian](3321-how-to-install-google-assistant-for-raspbian.md)
+            * [3.3.2.2 How to install Google Assistant for Ubuntu MATE](3322-how-to-install-google-assistant-for-ubuntu-mate.md)
 
 
 
