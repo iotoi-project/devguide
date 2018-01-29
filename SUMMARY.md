@@ -23,7 +23,8 @@
       * [3.2.2.6 How to run AVS to Ubuntu MATE 16.04 for Raspberry Pi](3226-how-to-run-avs-to-ubuntu-mate-1604-for-raspberry-pi.md)
   * [3.3 Google Assistant Voice AI](3-3-google-assistant-aimd.md)
     * [3.3.1 How to create new project to Google Cloud Platform](331-how-to-create-new-project-to-google-cloud-platform.md)
-    * 3.3.2 DragonBoard 410c
+    * [3.3.2 DragonBoard 410c](332-dragonboard-410c.md)
+      * [3.3.2.1 How to install Google Assistant for Debian](3321-how-to-install-google-assistant-for-debian.md)
     * [3.3.3 Raspberry Pi 3](332-raspberry-pi-3.md)
       * [3.3.3.1 How to install Google Assistant for Raspbian](3331-how-to-install-google-assistant-for-raspbian.md)
       * [3.3.3.2 How to install Google Assistant for Ubuntu MATE 16.04](3332-how-to-install-google-assistant-for-ubuntu-mate.md)
