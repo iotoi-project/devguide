@@ -103,12 +103,18 @@
   Recording WAVE 'out.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
   ```
 
-  ##### 8. Audio 녹음 테스트
+##### 8. Audio 녹음 테스트
 
 * 저장된 음성을 재생합니다. 음성이 정상적으로 재생되는지 확인합니다.
   ```
   $ aplay out.wav
   ```
+  
+##### 9. Audio volume 조절
+* 다음 명령을 사용하여 audio volume를 조절할 수 있습니다.
+```
+alsamixer
+```
 
 #### Google Assistant 설치
 
