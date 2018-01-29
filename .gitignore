@@ -1,1 +1,7 @@
 _book/
+.DS_Store
+node_modules/
+.bundle/
+vendor/bundle/
+.idea/
+.vscode/
