@@ -26,7 +26,7 @@
     * 3.3.2 DragonBoard 410c
     * [3.3.3 Raspberry Pi 3](332-raspberry-pi-3.md)
       * [3.3.3.1 How to install Google Assistant for Raspbian](3331-how-to-install-google-assistant-for-raspbian.md)
-      * [3.3.3.2 How to install Google Assistant for Ubuntu MATE](3332-how-to-install-google-assistant-for-ubuntu-mate.md)
+      * [3.3.3.2 How to install Google Assistant for Ubuntu MATE 16.04](3332-how-to-install-google-assistant-for-ubuntu-mate.md)
 * [4. Utility](4-utility.md)
   * [4.1 How to install ssh to Ubuntu MATE for Raspberry Pi](41-how-to-install-ssh-to-ubuntu-mate-for-raspberry-pi.md)
   * [4.2 How to install XRDP](42-how-to-install-xrdp.md)
