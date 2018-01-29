@@ -29,6 +29,6 @@
 * [4. Utility](4-utility.md)
   * [4.1 How to install ssh to Ubuntu MATE for Raspberry Pi](41-how-to-install-ssh-to-ubuntu-mate-for-raspberry-pi.md)
   * [4.2 How to install XRDP](42-how-to-install-xrdp.md)
-    * [4.2.1 debian OS](421-debian-os.md)
-    * [4.2.2 Raspbian or Ubuntu MATE 16.04](422-raspbian-or-ubuntu-mate-1604.md)
+    * [4.2.1 Debian OS for DragonBoard 410c](421-debian-os.md)
+    * [4.2.2 Raspbian or Ubuntu MATE 16.04 for Raspberry Pi](422-raspbian-or-ubuntu-mate-1604.md)
 
