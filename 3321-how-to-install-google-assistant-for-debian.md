@@ -27,6 +27,10 @@
 ##### 7. Connect Power supply to DragonBoard 410c
 
 ##### 8. Install Debian 17.04.1
+- Debian 17.04.1의 설치가 끝나면 시스템을 업데이트 합니다.
+```
+sudo apt-get update && apt-get upgrade
+```
 
 #### Install Google Assistant
 
@@ -81,8 +85,6 @@
   ```
   (env) linaro@linaro-alip:~$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
   ```
-
-* Generate credentials
 
 ##### 3. 자격 증명서 설치
 
