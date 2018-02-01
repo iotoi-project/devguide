@@ -4,8 +4,8 @@ MAINTAINER sunchanlee@inslab.co.kr
 RUN npm install gitbook-cli -g
 
 WORKDIR /srv/gitbook
-
-VOLUME /srv/gitbook
+ADD . /srv/gitbook/
+RUN gitbook install
 
 EXPOSE 4000 35729
 
