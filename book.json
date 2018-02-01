@@ -18,9 +18,7 @@
     "plugins": [
         "highlight@2.0.3",
         "anchors@0.7.1",
-        "ga@1.0.1",
-        "include@0.1.0",
-        "redirect@0.0.7"
+        "ga@1.0.1"
     ],
     "pluginsConfig": {
         "ga": {
