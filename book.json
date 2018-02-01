@@ -1,3 +1,41 @@
 {
+    "title": "IoToI Development Documentation",
+    "description": "Help documentation for IoToI.",
+    "links": {
+        "sidebar": {
+            "Project Home": "https://www.iotoi.io",
+            "Contribute": "https://github.com/iotoi-project/",
+            "Community": "https://iotoi.io/community/"
+        },
+        "sharing": {
+            "google": "https://www.iotoi.io",
+            "facebook": "https://www.iotoi.io",
+            "twitter": "https://www.iotoi.io",
+            "all": "https://www.iotoi.io"
+        }
+    },
+    "gitbook": "3.2.3",
+    "plugins": [
+        "highlight@2.0.3",
+        "anchors@0.7.1",
+        "ga@1.0.1"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-112764044-1",
+            "configuration": {
+              "allowLinker": true
+            }
+        }
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": false,
+        "fontSize": 12,
+        "paperSize": "a4"
+    },
+    "structure": {
+        "readme": "INTRO.md"
+    }
 
 }

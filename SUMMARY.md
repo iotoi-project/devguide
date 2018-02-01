@@ -1,6 +1,11 @@
 # Summary
 
-* [Introduction](README.md)
+* [Release History](5-release-history.md)
+* [Introduction](INTRO.md)
+* [Chip and Board HW Info](1-chip-and-board-hw-info.md)
+* [Chip and Board SW Info](2-chip-and-board-sw-info.md)
+* [How to Develop](3-how-to-develop.md)
+* [QnA and Issue](4-qna-and-issue.md)
 * [How to use Gitbook?](how-to-use-gitbook.md)
 * [1. Chip and Board HW Info](1-chip-and-board-hw-info.md)
 * [2. Chip and Board SW Info](2-chip-and-board-sw-info.md)
