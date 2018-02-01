@@ -49,7 +49,7 @@ FTP를 허용해줄 사용자를 _/etc/vsftpd.userlist _에 추가한다.
 ```
 $ echo user_asscount | sudo tee -a /etc/vsftpd.chroot_list
 $ cat /etc/vsftpd.chroot_list
-linaro
+user_account
 ```
 
 ##### 5. vsftp 재시작
