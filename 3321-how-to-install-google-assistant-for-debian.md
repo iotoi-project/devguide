@@ -29,7 +29,8 @@
 ##### 8. Install Debian 17.04.1
 - Debian 17.04.1의 설치가 끝나면 시스템을 업데이트 합니다.
 ```
-sudo apt-get update && apt-get upgrade
+sudo apt-get update
+sudo apt-get upgrade
 ```
 
 #### Install Google Assistant
