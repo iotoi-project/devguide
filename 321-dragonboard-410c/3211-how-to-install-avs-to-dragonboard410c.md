@@ -71,9 +71,7 @@ $ aplay out.wav
 ##### 1. 라이브러리 설치
 - 아래 명령을 터미널에서 실행합니다.
 ```
-sudo apt-get install openjdk-8-jdk
-sudo apt-get install vlc-nox vlc-data
-sudo apt-get install nano
+$ sudo apt-get install openjdk-8-jdk vlc-nox vlc-data nano
 ```
 
 ##### 2. 라이브러리 경로 설정
@@ -118,13 +116,13 @@ $ nano automated_install.sh
 - 저장이 완료되면 Ctrl + X로 nano 에디터를 종료합니다.
 - install 스크립트에 실행 권한을 부여합니다.
 ```
-chmod +x automated_install.sh
+$ chmod +x automated_install.sh
 ```
 ##### 6. MAVEN POM.xml 수정
 - DragonBoard410c에서 AVS를 실행하기 위해서는 pom.xml와 pom_pi.xml이 수정되어야 합니다.
 ```
-cd /home/linaro/workspace/alexa-avs-sample-app/samples/javaclient
-nano pom.xml
+$ cd /home/linaro/workspace/alexa-avs-sample-app/samples/javaclient
+$ nano pom.xml
 ```
 ![](/assets/dragonBoard_avs_util_3.png)
 - 다음과 같이 변경합니다.
@@ -137,7 +135,7 @@ nano pom.xml
 ```
 ![](/assets/dragonBoard_avs_util_4.png)
 ```
-nano pom_pi.xml
+$ nano pom_pi.xml
 ```
 ![](/assets/dragonBoard_avs_util_5.png)
 - 다음과 같이 변경합니다.
@@ -145,7 +143,7 @@ nano pom_pi.xml
 <dependency>
     <groupId>net.java.dev.jna</groupId>
     <artifactId>jna</artifactId>
-    <version>4.1.0</version>
+    <version>4.2.2</version>
     <scope>compile</scope>
 </dependency>
 ```
@@ -154,8 +152,8 @@ nano pom_pi.xml
 ##### 4. 설치 스트립트를 실행합니다.
 - 실행 명령을 입력합니다.
 ```
-cd /home/linaro/workspace/alexa-avs-sample-app
-. automated_install.sh
+$ cd /home/linaro/workspace/alexa-avs-sample-app
+$ . automated_install.sh
 ```
 ![](/assets/avs_script_edit_4.jpg)
 
