@@ -174,6 +174,7 @@ $ . automated_install.sh
 ![](/assets/avs_script_edit_9.jpg)
 
 - Alexa wake word 사용에 대해 "n"를 입력하고 Enter를 누릅니다.
+![](/assets/avs_script_edit_12.png)
 
 - 설치를 시작합니다. 약 15~20분정도 소요됩니다.  
 - 설치가 완료 되면 아래와 같은 화면이 나타납니다.
