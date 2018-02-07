@@ -1,4 +1,4 @@
-# Alexa for Raspbian\(NOOBS stretch\)
+# Alexa for Debian 17.09
 
 ---
 
