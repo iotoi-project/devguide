@@ -13,7 +13,7 @@
 #### Audio 환경 설정 및 테스트
 - ##### 오디오 환경
 ```
-Audio Input: XMOS  
+Audio Input: iotoi AFE-DB410C  
 Audio Output: Raspberry Pi 3.5mm jack
 ```
 
