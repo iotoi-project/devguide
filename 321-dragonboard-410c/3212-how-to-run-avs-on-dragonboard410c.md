@@ -2,7 +2,7 @@
 
 ---
 
-이 페이지는 Amazon에서 개발한 Alexa Voice Service를 INS\_VOICE\(가칭\)를 이용하여 사용하는 방법을 기술합니다.
+이 페이지는 Amazon에서 개발한 Alexa Voice Service를 iotoi AFE-DB410C를 이용하여 사용하는 방법을 기술합니다.
 
 #### Alexa Voice Service를 구동하기 위해서는 2개의 터미널이 필요합니다.
 ```
