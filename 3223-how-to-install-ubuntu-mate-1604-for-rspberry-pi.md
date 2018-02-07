@@ -47,8 +47,10 @@ OpenJDK Client VM (build 25.151-b12, mixed mode)
 
 #### Audio 환경 설정 및 테스트
 - ##### 오디오 환경
-    1. Audio Input: iotoi AFE-DB410C
-    2. Audio Output: iotoi AFE-DB410C
+```
+Audio Input: iotoi AFE-DB410C
+Audio Output: iotoi AFE-DB410C
+```
     
 ##### 1. XMOS 보드를 Raspberry Pi에 연결
 - 연결이 잘 되었는지 확인합니다.
