@@ -34,7 +34,8 @@
     - 예제는 ID: roy, Computer Name: RPi3 로 되어 있습니다.
 - 설치가 완료되면 아래 명령을 실행합니다.
 ```
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get upgrade
 ```
 - 설치된 Java version을 확인합니다.
 ```
@@ -46,13 +47,8 @@ OpenJDK Client VM (build 25.151-b12, mixed mode)
 
 #### Audio 환경 설정 및 테스트
 - ##### 오디오 환경
-  - 기본 상태
-    1. Audio Input: None
-    2. Audio Output: Raspberry Pi 3.5mm jack
-    
-  - XMOS 연결한 상태: 
-    1. Audio Input: XMOS
-    2. Audio Output: XMOS
+    1. Audio Input: iotoi AFE-DB410C
+    2. Audio Output: iotoi AFE-DB410C
     
 ##### 1. XMOS 보드를 Raspberry Pi에 연결
 - 연결이 잘 되었는지 확인합니다.
