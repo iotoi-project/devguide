@@ -52,24 +52,74 @@ Audio Input: iotoi AFE-DB410C
 Audio Output: iotoi AFE-DB410C
 ```
     
-##### 1. XMOS 보드를 Raspberry Pi에 연결
+##### 1. iotoi AFE-DB410C 보드를 Raspberry Pi에 연결
 - 연결이 잘 되었는지 확인합니다.
   
-##### 2. Audio 출력 테스트
+##### 2. Audio 출력 설정 확인
+- 아래 명령을 이용하여 Audio output 정보를 확인합니다.
+```
+$ aplay -l
+```
+![](/assets/ubuntu_audio_step_1.png)
+
+##### 3. Audio 입력 설정 확인
+- 아래 명령을 이용하여 Audio input 정보를 확인합니다.
+```
+$ arecord -l
+```
+![](/assets/ubuntu_audio_step_2.png)
+
+##### 4. Audio 입력을 XMOS board로 변경
+- 다음과 같이 변경합니다.  
+  ```
+  $ nano .asoundrc
+  
+  사용방법
+  pcm "hw: <card number>, <device number>
+  
+  pcm.!default {
+    type asym
+    capture.pcm "mic"
+    playback.pcm "speaker"
+  }
+  
+  pcm.mic {
+    type plug
+    slave {
+      pcm "hw:1,0"
+    }
+  }
+  
+  pcm.speaker {
+    type plug
+    slave {
+      pcm "hw:1,0"
+    }
+  }
+  ```
+![](/assets/ubuntu_audio_step_3.png)
+
+##### 5. 재부팅
+- 부팅이 완료되면 설정이 정상적으로 오디오가 동작되는지 확인합니다.
+  ```
+  $ sudo shutdown -r
+  ```
+  
+##### 6. Audio 출력 테스트
 - 소리가 정상적으로 출력되는지 확인합니다.
 - 테스트를 종료하려면 Ctrl + C 를 누르세요
 ```
-$ speaker-test -t wav
+$ sudo speaker-test -t wav
 ```
-![](/assets/raspbian_audio_step_4.jpg)
+![](/assets/ubuntu_audio_step_4.png)
 
-##### 3. Audio 입력 테스트
+##### 7. Audio 입력 테스트
 - 5초 동안 음성을 저장합니다. 아래 커맨드를 입력하고 음성을 입력하세요.
 ```
 $ arecord --format=S16_LE --duration=5 --rate=16000 out.wav
 Recording WAVE 'out.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
 ```
-##### 4. Audio 녹음 테스트
+##### 8. Audio 녹음 테스트
 - 저장된 음성을 재생합니다. 음성이 정상적으로 재생되는지 확인합니다.
 ```
 $ aplay out.wav
