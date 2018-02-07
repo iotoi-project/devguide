@@ -41,7 +41,7 @@ cd ~/workspace/alexa-avs-sample-app/samples/javaclient && mvn exec:exec
 ![](/assets/dragonBoard_alexa_step_7.png)
 
 - 브라우져를 닫고, 아래 메시지창에서 "OK"를 클릭합니다.
-![](/assets/raspbian_alexa_step_8.jpg)
+![](/assets/dragonBoard_alexa_step_8.png)
 
 - 아래와 같은 화면이 나타나면 정상적으로 AVS sample app이 실행된 것입니다.
 ![](/assets/dragonBoard_alexa_step_9.png)
