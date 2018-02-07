@@ -5,6 +5,7 @@
 이 페이지는 Amazon에서 개발한 Alexa Voice Service를 iotoi AFE-DB410C를 이용하여 사용하는 방법을 기술합니다.
 
 #### Alexa Voice Service를 구동하기 위해서는 2개의 터미널이 필요합니다.
+- DragonBoard410c용 Debian OS에서는 wake word engine 기능을 사용할 수 없습니다.
 ```
 터미널1: 웹 인증
 터미널2: AVS sample app 실행
