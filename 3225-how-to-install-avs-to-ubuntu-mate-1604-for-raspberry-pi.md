@@ -14,6 +14,7 @@ $ sudo apt-get install git
 
 - 작업 디렉토리 생성
 ```
+$ cd ~
 $ mkdir workspace
 $ cd workspace
 ```
