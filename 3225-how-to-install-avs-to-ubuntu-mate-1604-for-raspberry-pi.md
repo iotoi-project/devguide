@@ -31,7 +31,9 @@ $ cd alexa-avs-sample-app
 $ nano automated_install.sh
 ```
 
-- 빨간색 부분을 수정합니다.![](/assets/avs_script_edit_1.jpg)
+- 빨간색 박스 부분을 수정합니다.
+![](/assets/avs_script_edit_1.jpg)
+
 - AVS 등록에서 생성한 ProductID, ClientID, ClientSecret 를 사용합니다.  
 ![](/assets/avs_script_edit_2.jpg)
 
@@ -45,7 +47,7 @@ $ nano automated_install.sh
 chmod +x automated_install.sh
 ```
 
-##### 3. Install Alexa Voice Service
+##### 4. Install Alexa Voice Service
 - 스트립트를 실행합니다.
 ```
 . automated_install.sh
