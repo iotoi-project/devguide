@@ -52,7 +52,7 @@ OpenJDK Client VM (build 25.151-b12, mixed mode)
 - ##### 오디오 환경
 ```
 Audio Input: iotoi AFE-DB410C
-Audio Output: iotoi AFE-DB410C
+Audio Output: Raspberry Pi 3.5mm earjack
 ```
     
 ##### 1. iotoi AFE-DB410C 보드를 Raspberry Pi에 연결
