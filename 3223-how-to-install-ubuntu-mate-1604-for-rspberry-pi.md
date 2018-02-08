@@ -14,6 +14,7 @@
 - TV or monitor and HDMI cable
 - Keyboard and mous
 - iotoi AFE-DB410C Audio Board
+- Speaker with 3.5mm earjack
 
 #### Ubuntu MATE 16.04 설치
 
@@ -29,7 +30,7 @@
 - Select drive를 클릭하여, Micro SD Card의 경로를 설정합니다.
 - Flash 를 클릭합니다.
 - 이미지 flash가 모두 끝나면, Micro SD Card를 PC에서 분리하여 준비한 Raspberry Pi 3에 창작합니다.
-- 준비한 모니터와 키보드, 마우스, 인터넷을 Raspberry Pi 3에 연결합니다.
+- 준비한 모니터와 키보드, 마우스, 스피커, 인터넷을 Raspberry Pi 3에 연결합니다.
 - iotoi AFE-DB410C Audio Board를 USB cable을 이용하여 Raspberry Pi 3에 연결합니다.
 - Micro USB power supply를 Raspberry Pi 3에 연결합니다.
 - Ubuntu Mate 16.04를 설치합니다. 
