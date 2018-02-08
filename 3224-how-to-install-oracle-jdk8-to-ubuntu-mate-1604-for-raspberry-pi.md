@@ -4,22 +4,29 @@
 
 #### Install chrome 
 
-##### 1. Chrome brower 검색
-- Ubuntu 16.04에 chrome brower를 설치합니다. 
+##### 1. Chromium brower 검색
+- Ubuntu 16.04에 Chromium brower를 설치합니다.   
+    (소프트웨어를 최신으로 업데이트 하면 내장된 firefox browser가 정상적으로 실행되지 않습니다.)
 - System &gt; Administrator &gt; Software Boutique를 실행합니다.
 ![](/assets/avs_setup_step_1.jpg)
 
 - Search 아이콘을 클릭합니다.
 ![](/assets/avs_setup_step_2.jpg)
 
-##### 2. Chrome brower 설치
-- Search Box에 chrome를 입력하고 Enter를 누릅니다. 
-- Chrome이 검색되면 "Install"을 클릭합니다.
+##### 2. Chromium  brower 설치
+- Search Box에 Chromium 를 입력하고 Enter를 누릅니다. 
+- Chromium 이 검색되면 "Install"을 클릭합니다.
 ![](/assets/avs_setup_step_3.jpg)
 
-##### 3. Chrome brower 실행
-- Chrome 설치가 완료되면 "Lanuch"를 클릭합니다.
+##### 3. Chromium brower 실행
+- Chromium 설치가 완료되면 "Lanuch"를 클릭합니다.
 ![](/assets/avs_setup_step_4.jpg)
+
+##### 4. Chromium brower를 default browser로 설정
+- Chromium 브라우져의 오른쪽 상단 메뉴를 클릭한 후, Settings를 선택합니다.
+![](/assets/ubuntu_chromium_default_browser_step_1.png)
+- 스크롤을 내려 Default browser 메뉴에서 MAKE DEFAULT 를 클릭합니다.
+![](/assets/ubuntu_chromium_default_browser_step_2.png)
 
 #### Install oracle JDK 8
 Oracle JDK 1.8 버전을 설치합니다.
