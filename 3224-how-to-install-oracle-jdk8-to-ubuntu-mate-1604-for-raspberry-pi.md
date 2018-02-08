@@ -22,7 +22,7 @@
 ![](/assets/avs_setup_step_4.jpg)
 
 #### Install oracle JDK 8
-AVS는 Oracle JDK 1.8 버전을 사용합니다.
+Oracle JDK 1.8 버전을 설치합니다.
 **Ubuntu MATE에서 OpenJDK 1.8로 AVS가 구동은 되나 AVS가 불안하여 멈추는 현상이 나타납니다.**
 
 ##### 1. Download JDK 8

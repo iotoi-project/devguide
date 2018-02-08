@@ -26,9 +26,10 @@ cd ~/workspace/alexa-avs-sample-app/samples/javaclient && mvn exec:exec
 ![](/assets/dragonBoard_alexa_step_2.png)
 
 ##### 3. 사용자 인증
-- 인증을 위해 디폴트 브라우져를 사용할지 물어본다. "Yes"를 클릭한다.
+- URL을 clipboard에 복사할지 물어봅니다. "Yes"를 클릭한다.
 ![](/assets/dragonBoard_alexa_step_3.png)
 
+- 브라우져를 실행하고, URL에 clipboard에 저장된 URL을 붙여넣기를 합니다.
 - ADVANCED 를 클릭합니다.
 ![](/assets/dragonBoard_alexa_step_4.png)
 
