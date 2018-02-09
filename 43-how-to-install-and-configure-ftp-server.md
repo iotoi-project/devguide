@@ -47,7 +47,7 @@ chroot_list_file=/etc/vsftpd.chroot_list
 ##### 4. 사용자 추가
 FTP를 허용해줄 사용자를 _/etc/vsftpd.userlist _에 추가한다.
 ```
-$ echo user_asscount | sudo tee -a /etc/vsftpd.chroot_list
+$ echo user_account | sudo tee -a /etc/vsftpd.chroot_list
 $ cat /etc/vsftpd.chroot_list
 user_account
 ```
