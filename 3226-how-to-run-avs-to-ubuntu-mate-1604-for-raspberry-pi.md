@@ -45,7 +45,7 @@ cd ~/workspace/alexa-avs-sample-app/samples/javaclient && mvn exec:exec
 ![](/assets/ubuntu_alexa_step_8.png)
 
 - 아래와 같은 화면이 나타나면 정상적으로 AVS sample app이 실행된 것입니다.
-![](/assets/ubuntu_alexa_step_9.jpg)
+![](/assets/ubuntu_alexa_step_9.png)
 
 ##### 4. 터미널 3 실행
 - Alexa wake word engine을 실행합니다.
