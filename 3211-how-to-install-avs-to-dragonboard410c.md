@@ -42,8 +42,8 @@ sudo apt-get upgrade
 #### Audio 환경 설정 및 테스트
 - ##### 오디오 환경
 ```
-Audio Input: iotoi AFE-DB410C
-Audio Output: iotoi AFE-DB410C
+Audio Input: iotoi AFE-DB410C MIC
+Audio Output: iotoi AFE-DB410C Speaker
 ```
 
 ##### 1. Audio 출력 테스트

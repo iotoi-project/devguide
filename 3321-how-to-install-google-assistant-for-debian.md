@@ -35,34 +35,34 @@ sudo apt-get upgrade
 
 #### Install Google Assistant
 
-##### 1. [Introduction to the Google Assistant Libaray](https://developers.google.com/assistant/sdk/guides/library/python/?hl=ko)
+#### Google Assistant Libaray 소개
+- https://developers.google.com/assistant/sdk/guides/library/python/?hl=en
 
-##### 2. Configure and Test the Audio
+#### Audio 환경 설정 및 테스트
+- ##### 오디오 환경
+```
+Audio Input: iotoi AFE-DB410C MIC
+Audio Output: iotoi AFE-DB410C Speaker
+```
 
-* Verify that recording and playback work. You can do this in the system sound settings or from the command line.
-* Play a test sound \(this will be a person speaking\). Press Ctrl+C when done. If you don't hear anything when you run this, check your speaker connection.
+##### 1. Audio 출력 테스트
+- 소리가 정상적으로 출력되는지 확인합니다.
+- 테스트를 종료하려면 Ctrl + C 를 누르세요
+```
+$ speaker-test -t wav
+```
 
-  ```
-   speaker-test -t wav
-  ```
-
-* Record a short audio clip.
-
-  ```
-   arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
-  ```
-
-* Check the recording by replaying it.
-
-  ```
-   aplay --format=S16_LE --rate=16000 out.raw
-  ```
-
-* Adjust the playback and recording volume.
-
-  ```
-   alsamixer
-  ```
+##### 2. Audio 입력 테스트
+- 5초 동안 음성을 저장합니다. 아래 커맨드를 입력하고 음성을 입력하세요.
+```
+$ arecord --format=S16_LE --duration=5 --rate=16000 out.wav
+Recording WAVE 'out.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+```
+##### 3. Audio 녹음 테스트
+- 저장된 음성을 재생합니다. 음성이 정상적으로 재생되는지 확인합니다.
+```
+$ aplay out.wav
+```
 
 * ## [Configure a Developer Project and Account Settings](https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account?hl=en)
 
