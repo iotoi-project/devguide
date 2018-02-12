@@ -19,6 +19,11 @@ Audio Output: iotoi AFE-DB410C Speaker
 
 ##### 1. Audio 설정 변경
 - iotoi AFE-DB410C를 통해서 audio input/output을 처리하기 위해서는 별도의 설정이 필요합니다.
+- 아래 utility를 설치해 주세요
+```
+sudo apt-get install pulseaudio
+```
+
 - Audio blacklist 환경설정 파일을 수정합니다.
 ```
 sudo nano /etc/modprobe.d/raspi-blacklist.conf
