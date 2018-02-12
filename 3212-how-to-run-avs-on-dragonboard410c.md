@@ -5,6 +5,7 @@
 이 페이지는 Amazon에서 개발한 Alexa Voice Service를 iotoi AFE-DB410C를 이용하여 사용하는 방법을 기술합니다.
 
 #### Alexa Voice Service를 구동하기 위해서는 2개의 터미널이 필요합니다.
+- DragonBoard410c용 Debian OS에서는 wake word engine 기능을 사용할 수 없습니다.
 ```
 터미널1: 웹 인증
 터미널2: AVS sample app 실행
@@ -25,9 +26,10 @@ cd ~/workspace/alexa-avs-sample-app/samples/javaclient && mvn exec:exec
 ![](/assets/dragonBoard_alexa_step_2.png)
 
 ##### 3. 사용자 인증
-- 인증을 위해 디폴트 브라우져를 사용할지 물어본다. "Yes"를 클릭한다.
+- URL을 clipboard에 복사할지 물어봅니다. "Yes"를 클릭한다.
 ![](/assets/dragonBoard_alexa_step_3.png)
 
+- 브라우져를 실행하고, URL에 clipboard에 저장된 URL을 붙여넣기를 합니다.
 - ADVANCED 를 클릭합니다.
 ![](/assets/dragonBoard_alexa_step_4.png)
 

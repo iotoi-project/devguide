@@ -27,31 +27,31 @@ cd ~/workspace/alexa-avs-sample-app/samples/javaclient && mvn exec:exec
 
 ##### 3. 사용자 인증
 - 인증을 위해 디폴트 브라우져를 사용할지 물어본다. "Yes"를 클릭한다.
-![](/assets/raspbian_alexa_step_3.jpg)
+![](/assets/ubuntu_alexa_step_3.png)
 
 - ADVANCED 를 클릭합니다.
-![](/assets/raspbian_alexa_step_4.jpg)
+![](/assets/ubuntu_alexa_step_4.png)
 
 - "Proceed to localhost \(unsafe\)"를 클릭합니다.
-![](/assets/raspbian_alexa_step_5.jpg)
+![](/assets/ubuntu_alexa_step_5.png)
 
 - Amazon ID 및 Password를 입력하고 Sign in 합니다.
-![](/assets/raspbian_alexa_step_6.jpg)
+![](/assets/ubuntu_alexa_step_6.png)
 
 - 정상적으로 인증 토근을 받으면 아래와 같은 화면이 나타납니다.
-![](/assets/raspbian_alexa_step_7.jpg)
+![](/assets/ubuntu_alexa_step_7.png)
 
 - 브라우져를 닫고, 아래 메시지창에서 "OK"를 클릭합니다.
-![](/assets/raspbian_alexa_step_8.jpg)
+![](/assets/ubuntu_alexa_step_8.png)
 
 - 아래와 같은 화면이 나타나면 정상적으로 AVS sample app이 실행된 것입니다.
-![](/assets/raspbian_alexa_step_9.jpg)
+![](/assets/ubuntu_alexa_step_9.png)
 
 ##### 4. 터미널 3 실행
 - Alexa wake word engine을 실행합니다.
 ```
 $ cd ~/workspace/alexa-avs-sample-app/samples/wakeWordAgent/src && ./wakeWordAgent -e kitt_ai
 ```
-![](/assets/raspbian_alexa_step_10.jpg)
+![](/assets/ubuntu_alexa_step_10.png)
 
 - 마이크에 Alexa라고 부르면 Alexa AI가 동작합니다.

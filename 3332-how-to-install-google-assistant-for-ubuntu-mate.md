@@ -7,6 +7,65 @@
 Ubuntu MATE 16.04를 이용하기 위해서는 아래 가이드를 참고하세요.
 How to install Ubuntu MATE 16.04 for Raspberry Pi
 
+#### Audio 환경 설정 및 테스트
+- ##### 오디오 환경
+```
+Audio Input: iotoi AFE-DB410C MIC
+Audio Output: iotoi AFE-DB410C Speaker
+```
+    
+##### 1. Audio 설정 변경
+- iotoi AFE-DB410C를 통해서 audio input/output을 처리하기 위해서는 별도의 설정이 필요합니다.
+- Audio blacklist 환경설정 파일을 수정합니다.
+```
+sudo nano /etc/modprobe.d/blacklist.conf
+```
+![](/assets/ubuntu_audio_step_1.png)
+- 제일 하단으로 이동하여 다음 내용을 추가합니다.
+```
+blacklist snd_bcm2835
+```
+![](/assets/ubuntu_audio_step_2.png)
+- Ctrl+o 를 눌러 파일을 저장합니다. Ctrl+x 를 눌러 nano 에디터를 종료합니다.
+- 시스템을 재부팅합니다.
+```
+sudo shutdown -r
+```
+  
+##### 2. Audio 출력 설정 확인
+- 아래 명령을 이용하여 Audio output 정보를 확인합니다.
+```
+$ aplay -l
+```
+![](/assets/ubuntu_audio_step_3.png)
+
+##### 3. Audio 입력 설정 확인
+- 아래 명령을 이용하여 Audio input 정보를 확인합니다.
+```
+$ arecord -l
+```
+![](/assets/ubuntu_audio_step_4.png)
+
+ 
+##### 4. Audio 출력 테스트
+- 소리가 정상적으로 출력되는지 확인합니다.
+- 테스트를 종료하려면 Ctrl + C 를 누르세요
+```
+$ speaker-test -t wav
+```
+![](/assets/ubuntu_audio_step_4.png)
+
+##### 5. Audio 입력 테스트
+- 5초 동안 음성을 저장합니다. 아래 커맨드를 입력하고 음성을 입력하세요.
+```
+$ arecord --format=S16_LE --duration=5 --rate=16000 out.wav
+Recording WAVE 'out.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+```
+##### 6. Audio 녹음 테스트
+- 저장된 음성을 재생합니다. 음성이 정상적으로 재생되는지 확인합니다.
+```
+$ aplay out.wav
+```
 
 #### Google Assistant 설치
 

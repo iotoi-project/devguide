@@ -42,8 +42,8 @@ sudo apt-get upgrade
 #### Audio 환경 설정 및 테스트
 - ##### 오디오 환경
 ```
-Audio Input: iotoi AFE-DB410C
-Audio Output: iotoi AFE-DB410C
+Audio Input: iotoi AFE-DB410C MIC
+Audio Output: iotoi AFE-DB410C Speaker
 ```
 
 ##### 1. Audio 출력 테스트
@@ -88,7 +88,7 @@ unset JAVA_TOOL_OPTIONS
 - 저장이 완료되면 Ctrl + x로 nano를 종료합니다.
 - 추가한 경로를 터미널에 반영하기 위해 아래 명령을 실행합니다.
 ```
-source ~/.bashrc
+$ source ~/.bashrc
 ```
 ##### 3. 작업 디렉토리 생성
 - 작업 디렉토리 생성을 위해 아래 명령을 터미널에서 실행합니다.
