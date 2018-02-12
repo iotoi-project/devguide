@@ -73,6 +73,7 @@ Recording WAVE 'out.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
 ```
 $ aplay out.wav
 ```
+
 #### Alexa Voice Sevrice 설치
 
 ##### 1. 작업 디렉토리 생성
