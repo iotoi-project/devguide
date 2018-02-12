@@ -92,7 +92,7 @@ $ arecord -l
 - 소리가 정상적으로 출력되는지 확인합니다.
 - 테스트를 종료하려면 Ctrl + C 를 누르세요
 ```
-$ sudo speaker-test -t wav
+$ speaker-test -t wav
 ```
 ![](/assets/ubuntu_audio_step_4.png)
 
