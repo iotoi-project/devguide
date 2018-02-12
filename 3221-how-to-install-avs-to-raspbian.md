@@ -13,19 +13,35 @@
 #### Audio 환경 설정 및 테스트
 - ##### 오디오 환경
 ```
-Audio Input: iotoi AFE-DB410C  
-Audio Output: Raspberry Pi 3.5mm jack
+Audio Input: iotoi AFE-DB410C MIC
+Audio Output: iotoi AFE-DB410C Speaker
 ```
 
-##### 1. XMOS 보드를 Raspberry Pi에 연결
-- 연결이 잘 되었는지 확인합니다.
+##### 1. Audio 설정 변경
+- iotoi AFE-DB410C를 통해서 audio input/output을 처리하기 위해서는 별도의 설정이 필요합니다.
+- Audio blacklist 환경설정 파일을 수정합니다.
+```
+sudo nano /etc/modprobe.d/raspi-blacklist.conf
+```
+![](/assets/raspbian_audio_step_1.png)
+- 다음 내용을 추가합니다.
+```
+blacklist snd_bcm2835
+```
+![](/assets/raspbian_audio_step_2.png)
+- Ctrl+o 를 눌러 파일을 저장합니다. Ctrl+x 를 눌러 nano 에디터를 종료합니다.
+- 시스템을 재부팅합니다.
+```
+sudo shutdown -r
+```
+
 
 ##### 2. Audio 출력 설정 확인
 - 아래 명령을 이용하여 Audio output 정보를 확인합니다.
 ```
 $ aplay -l
 ```
-![](/assets/raspbian_audio_step_1.jpg)
+
 
 ##### 3. Audio 입력 설정 확인
 - 아래 명령을 이용하여 Audio input 정보를 확인합니다.
