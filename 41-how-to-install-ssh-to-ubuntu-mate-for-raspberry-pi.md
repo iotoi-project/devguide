@@ -48,7 +48,7 @@ $ ssh roy@192.168.15.51 -p 22
 - putty.exe를 실행합니다.
 - Host Name \(or IP address\) 에 Raspberry Pi 3의 IP address를 입력합니다.
 - Saved Sessions에 정보를 저장할 이름을 입력하고, Save를 클릭합니다.
-- Open을 클릭하면, 입력한 IP address에 접속합니다.
+- Open을 클릭하면, 입력한 IP address에 접속합니다.  
 ![](/assets/putty_step_1.jpg)
 
 - 아래 안내문구가 나타나면 "Yes"를 선택합니다.
