@@ -78,13 +78,13 @@ $ aplay out.wav
 
 ##### Python 가상환경 설정
 
-##### 1. Python 가상 환경을 설치합니다.
+##### 1. Python 가상 환경을 설치합니다. ((Recommended) For Python 3)
 
 ```
 $ sudo apt-get update
 $ sudo apt-get install python3-dev python3-venv # Use python3.4-venv if the package cannot be found.
 $ python3 -m venv env
-$ env/bin/python -m pip install --upgrade pip setuptools
+$ env/bin/python -m pip install --upgrade pip setuptools wheel
 $ source env/bin/activate
 ```
 
@@ -92,7 +92,7 @@ $ source env/bin/activate
 
 * 시스템 종속 패키지를 설치합니다.
   ```
-  (env)$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev
+  (env)$ sudo apt-get install portaudio19-dev libffi-dev libssl-dev libmpg123-dev
   ```
 
 ##### 3. Python 패키지 업그레이드
